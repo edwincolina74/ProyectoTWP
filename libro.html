@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/reclamo.css">
+	<script type="text/javascript" src="js/reclamos.js"></script>
+</head>
+
+<body>
+	<!-- CABECERA -->
+	<header class="cabecera">
+		<a href="index.html"><img src="imagenes/inicio/logohotel.png"></a>
+		<nav class="navegacion">
+			<a href="index.html">HOTEL IMPERIAL</a>
+			<a href="habitaciones.html" >Habitaciones</a>
+			<a href="ofertas.html">Paquetes y Ofertas</a>
+			<a href="eventos.html">Eventos</a>
+			<a href="bodas.html">Bodas</a>
+			<a href="servicios.html">Servicios</a>
+			<a href="atracciones.html">Atracciones locales</a>
+			<a href="contactoyubicacion.html">Contactanos</a> 
+		</nav>
+		<a href="index.html"><img src="imagenes/inicio/logohotel.png"></a>
+	</header>
+	<!-- FIN CABECERA    -->
+	<h1 class="titulo">LIBRO DE RECLAMACIONES</h1>
+	<div class="general">
+		<form id="formula">
+			<br>
+			<p class="text">Conforme a lo establecido en el código de la Protección y Defensa del consumidor este
+			establecimiento cuenta con un Libro de Reclamaciones a tu disposición.</p>
+			<p class="text">Registra la queja o reclamo aqui.</p>
+			<p class="text">Razón Social: HOTEL IMPERIAL</p>
+			<p class="text">RUC: 20102489672</p>
+			<p class="text">Dirección: Calle los claveles 155, Lima, Perú</p>
+			<br>
+
+
+			<div class="marco">
+				<div class="efecto">
+					<div class="contact-form">
+						<h2 class="datos">Datos del Reclamante</h2>
+						<div class="fila">
+							<div class="celda">
+								<p>
+									<label>Nombre</label>
+									<input type="text" name="nombre">
+								</p>
+							</div>
+						</div>
+						<div class="fila">
+							<div class="celda">
+								<p>
+									<label> Tipo de documento</label>
+									<select>
+										<option checked>Seleccione</option>
+										<option>DNI</option>
+										<option>Pasaporte</option>
+										<option>Otro</option>
+									</select>
+								</p>
+							</div>
+							<div class="celda">
+								<p>
+									<label>Distrito</label>
+									<select required name="dist">
+										<option checked>Seleccione</option>
+										<option>Ancón</option>
+										<option>Ate</option>
+										<option>Barranco</option>
+										<option>Breña</option>
+										<option>Carabayllo</option>
+										<option>Chaclacayo</option>
+										<option>Chorrilos</option>
+										<option>Cieneguilla</option>
+										<option>Comas</option>
+										<option>El Agustino</option>
+										<option>Huaycán</option>
+										<option>Independencia</option>
+										<option>Jesús Maria</option>
+										<option>La Molina</option>
+										<option>La Victoria</option>
+										<option>Lima</option>
+										<option>Lince</option>
+										<option>Los Olivos</option>
+										<option>Lurigancho-Chosica</option>
+										<option>Puente Piedra</option>
+										<option>Punta Hermosa</option>
+										<option>Punta Negra</option>
+										<option>Rímac</option>
+										<option>San Bartolo</option>
+										<option>San Borja</option>
+										<option>San Isidro</option>
+										<option>San Juan de Lurigancho</option>
+										<option>San Juan de Miraflores</option>
+										<option>San Luis</option>
+										<option>San Martín de Porres</option>
+										<option>San Miguel</option>
+										<option>Santa Anita</option>
+										<option>Santa María del Mar</option>
+										<option>Santa Rosa</option>
+									</select>
+								</p>
+							</div>
+						</div>
+						<div class="fila">
+							<div class="celda">
+								<p>
+									<label>Nro de Documento</label>
+									<input type="number" name="DNI">
+								</p>
+							</div>
+							<div class="celda">
+								<p>
+									<label>Dirección Domiciliaria</label>
+									<input type="text" name="direccion">
+								</p>
+							</div>
+						</div>
+
+						<div class="fila">
+							<div class="celda">
+								<p>
+									<label>Número telefonico</label>
+									<input type="number" name="telefonico">
+								</p>
+							</div>
+							<div class="celda">
+								<p>
+									<label>Correo electronico</label>
+									<input type="email" name="email">
+								</p>
+							</div>
+						</div>
+
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+			<div class="marco">
+				<div class="efecto">
+					<div class="contact-form">
+						<h2 class="datos">Detalle del reclamo</h2>
+
+						<div class="fila">					
+							<div class="celda">
+								<p>
+									<label>Tipo</label>
+									<select name="tipo">
+										<option checked>Seleccione</option>
+										<option>Reclamo</option>
+										<option>Queja</option>
+									</select>
+								</p>
+							</div>
+							<div class="celda">
+								<p>
+									<label>Detalle del Reclamo o Queja</label>
+									<select>
+										<option checked>Seleccione</option>
+										<option>Evento</option>
+										<option>Hospedaje</option>
+										<option>Otro</option>
+									</select>
+								</p>
+							</div>
+						</div>
+
+
+						<div class="fila">
+							<div class="celda">
+								<p>
+									<label>Numero de personas</label>
+									<input type="number" name="cod">
+								</p>
+							</div>
+							<div class="celda">
+								<p>
+									<label>Monto S/.</label>
+									<input type="number" name="monto">
+								</p>
+							</div>
+						</div>
+
+						<div class="fila">
+							<div class="celda">
+								<p>
+									<label>Descripcion</label>
+									<textarea name="mensaje" rows="1"></textarea>
+								</p>
+							</div>
+							<div class="celda">
+								<p>
+									<label>Adjuntar archivo si requiere</label>
+									<input id="prioridad" type="file" name="Adjuntar"
+									accept="image/*,application/pdf" />
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<p>RECLAMO: Disconformidad relacionada con los servicios.</p>
+			<p>QUEJA : Disconformidad no relacionada a los productos o servicios; o, malestar o descontento respecto a la atención al público.
+			</p>
+			<br>
+			<br>
+			<div class="texto">
+				<p>
+					<input type="button" value="Enviar">
+				</p>
+			</div>
+		</form>
+	</div>
+	<!-- PIE DE PAGINA -->
+
+	<footer >
+		<div class="contenedor-pie-pagina1">
+			<div class="pie-columna1">
+				<a href="index.html"><h1>HOTEL IMPERIAL</h1></a>
+				<p>Calle los claveles 155, Lima, Perú</p>
+				<p>(511) 285-3015</p>
+				<p>consulta@hotelimperial.com.pe</p>
+			</div>
+			<form class="pie-subscribete">
+				<label>SUBSCRIBETE</label>
+				<input type="email" name="nombre" placeholder="Ingresar correo electrónico">
+				<input type="submit" name="aceptar" value="REGISTRATE">
+			</form>
+		</div>
+
+		<div class="contenedor-pie-pagina2" >
+			<div>
+				<h2><a href="contactoyubicacion.html">CONTACTO Y UBICACION </a></h2>
+			</div>
+			<div >
+				<h2><a href="miembrospreferentes.html">MIEMBROS PREFERENTES </a></h2>
+			</div>
+			<div class="pie-columna2">		
+				<div>		
+					<h1>SIGUENOS </h1>
+				</div>
+				<div class="iconos-tamano">
+					<p>
+						<a href="https://web.facebook.com/Hoteles.com/about/?ref=page_internal&_rdc=1&_rdr"><img src="imagenes/inicio/facebook.png">
+							<a href="https://twitter.com/riuhoteles" ><img src="imagenes/inicio/twitter.png">
+								<a href="https://www.instagram.com/hotelsdotcom/"><img src="imagenes/inicio/instagram.png">
+									<a href="https://www.youtube.com/channel/UCrpymEUtWUYzLoK-fGG8uXA"><img src="imagenes/inicio/youtube.png">
+									</p>
+								</div>
+							</div>
+							<div>
+								<h2><a href="libro.html"> Libro de Reclamaciones </a></h2>
+							</div>
+						</div>
+					</footer>
+
+					<!-- FIN: PIE DE PAGINA -->
+
+				</body>
+				</html>

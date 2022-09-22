@@ -1,0 +1,210 @@
+body{
+	background: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/**************CABECERA*************/
+.cabecera img{
+	width: 130px;
+}
+
+
+.cabecera{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #333B43;
+}
+.navegacion a{
+	text-decoration: none;
+	padding-right: 20px; 
+	color: white ;
+	font-size: 20px;
+}
+/****/
+
+#imagen-portada{
+	width: 100%;
+}
+
+.centrado{
+	text-align: center;
+}
+
+.texto-portada{
+	display: flex;
+	flex-direction: column;
+	padding: 0px 300px;
+
+}
+.titulo-color{
+	color: #a47449;
+}
+
+.habitaciones{
+	display: flex;
+    justify-content:space-between; 
+    padding: 0px 250px;
+}
+
+.foto-habitaciones img{
+	width: 400px;
+	height: 250px;
+	/* border-radius: 20%; poner borde a las fotos**/
+}
+
+.item-habitaciones{
+	flex-basis: calc(33.3% - 200px);
+	/*border: solid; */
+}
+
+.videos-restaurantes video{
+	width: 100%
+
+}
+.restaurantes{
+	display: flex;
+	flex-direction: column	;
+	padding: 0px 600px;
+     
+}
+
+/******PIE DE PAGINA*********/
+
+.pie-columna1{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	background: #0F1922;
+	color: white;
+	/* border: 1px solid; */
+	/*padding-left: 250px;*/
+}
+.pie-columna2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #0F1922;
+	color: white;
+	/* border: 1px solid; */
+	/*padding-left: 250px;*/
+}
+.pie-subscribete{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #0F1922;
+	color: white;
+
+}
+.pie-subscribete input[type="submit"]{
+	background: #9F6B3D ;
+	color: white;
+	font-size: 20px;
+}
+.pie-subscribete input[type="email"],label{
+	font-size: 20px;
+	padding-right: 30px;
+}
+
+
+.contenedor-pie-pagina1{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #0F1922;
+	color: white;
+	padding: 0px 400px;
+/*	border: 5px solid darkred;*/
+	}
+
+.contenedor-pie-pagina2{
+	display: flex;
+	background: #0F1922;
+	color: white;
+	/* border: 1px solid red ;*/
+	justify-content: space-between;
+	border-top: 1px solid white;
+	padding: 0px 100px;
+}
+.iconos-tamano img{
+	width: 50px;
+	height: 50px;
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.habitaciones-portada{
+	display: flex;
+	flex-direction: column	;
+	padding: 0px 20%;
+     
+}
+
+/* Servicios habitaciones */
+
+.flex-col{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+ 
+}
+.alin-izq{
+    text-align: left;
+}
+
+#cajapadre { 
+	text-align: center; 
+	width: 290px; 
+	border: 1px solid;
+}
+#caja-1 { 
+	float: left;
+	width: 260px;
+	height: 350px;
+	margin: 5px;
+/* background-color: blue;*/
+}
+
+.restaurar {
+clear: both;
+}
+
+/* Miembros Preferentes*/
+
+.flex-members{
+    display: flex;
+    justify-content: center;
+     border-style: inset;
+     padding: 50px
+
+   }
+
+  .flex-members input[type="submit"]{
+  	background: darkgray;
+  	font-size: 25px;
+ 
+  }
+
+ .resev a{
+    display: block;
+    width: 160px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px 150px; 
+    padding: 10px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: rgb(159,107,61);
+
+}
+
+.resev a:hover{
+	background-color: transparent;
+	border: 2px solid rgb(159,107,61);
+	color: rgb(159,107,61);
+} 
