@@ -32,7 +32,6 @@
 	<div class="titulos-pg">
 		<h1>Las Catacumbas de San Francisco</h1>
 		<div class="info">
-		<img src="/imagenes/atracciones/catacumbas.jpg" alt="">
 		<p>Seguramente escondida en una calle lateral está la Casa Aliaga, una de las menos conocidas atracciones turísticas de Lima. 
 			Tan antigua como la propia Lima, la casa se encuentra en la tierra dada en 1535 a Jerónimo de Aliaga, uno de los seguidores de Pizarro, y que ha sido ocupada por 18 generaciones de sus descendientes. 
 			Basándose en sus excavaciones, los arqueólogos creen que Huaca Pucllana fue el centro ceremonial y administrativo de la cultura de la Lima temprana. 
@@ -42,6 +41,77 @@
 	
 		</div>
 	</div>
+
+	<div class="container">
+        <div class="image">
+            <img src="slider/catabumbas/img-1.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="slider/catabumbas/img-2.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="slider/catabumbas/img-3.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="slider/catabumbas/img-4.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="slider/catabumbas/img-5.jpg" alt="">
+        </div>
+
+        <div class="button">
+            <a onclick="nextimg(-1)" class="prex">&#10094;</a>
+            <a onclick="nextimg(1)" class="next">&#10095;</a>
+        </div>
+
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+
+    <script>
+        var imageno = 1;
+        displayimg(imageno);
+
+        function nextimg(n){
+            displayimg(imageno += n)
+        }
+
+        function currentSlide(n){
+            displayimg(imageno = n)
+        }
+
+        function displayimg(n){
+            var i;
+            var image = document.getElementsByClassName("image");
+            var dots = document.getElementsByClassName("dot");
+
+            if(n > image.length){
+                imageno = 1;
+            }
+
+            if(n < 1){
+                imageno = image.length;
+            }
+
+            for(i=0; i < image.length; i++){
+                image[i].style.display = "none";
+            }
+
+            for(i = 0; i < image.length; i++){
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+            image[imageno - 1].style.display = "block";
+            dots[imageno - 1].className += " active";
+        }
+    </script>
+	<br><br>
+
 	<!-- PIE DE PAGINA -->
 
 		<footer >
