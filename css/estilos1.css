@@ -12,16 +12,13 @@ body{
 .cabecera{
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	background: #333B43;
-}
-.navegacion a{
-	text-decoration: none;
-	padding-right: 20px; 
-	color: white ;
 	font-size: 20px;
+	
+
 }
-/****/
+
 
 #imagen-portada{
 	width: 100%;
@@ -35,7 +32,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	padding: 0px 300px;
-
+	
 }
 .titulo-color{
 	color: #a47449;
@@ -44,7 +41,7 @@ body{
 .habitaciones{
 	display: flex;
     justify-content:space-between; 
-    padding: 0px 250px;
+    padding: 0px 100px;
 }
 
 .foto-habitaciones img{
@@ -64,8 +61,8 @@ body{
 }
 .restaurantes{
 	display: flex;
-	flex-direction: column	;
-	padding: 0px 600px;
+	flex-direction: column;
+	padding: 0px 250px;
      
 }
 
@@ -92,7 +89,6 @@ body{
 .pie-subscribete{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	background: #0F1922;
 	color: white;
 
@@ -100,11 +96,11 @@ body{
 .pie-subscribete input[type="submit"]{
 	background: #9F6B3D ;
 	color: white;
-	font-size: 20px;
+	font-size: 14px;
 }
 .pie-subscribete input[type="email"],label{
-	font-size: 20px;
-	padding-right: 30px;
+	font-size: 14px;
+	padding-right: 10px;
 }
 
 
@@ -128,8 +124,8 @@ body{
 	padding: 0px 100px;
 }
 .iconos-tamano img{
-	width: 50px;
-	height: 50px;
+	width: 20px;
+	height: 20px;
 }
 
 
@@ -150,30 +146,48 @@ a{
 
 .flex-col{
     display: flex;
-    justify-content: center;
-    /* border: 1px solid black; */
- 
-}
-.alin-izq{
-    text-align: left;
+	/* flex-direction: column; */
+    /*justify-content: center;*/
+	width: 400px; 
+	/* border: 1px solid black; */
+	height: 330px;
+	/*margin: 0px;*/
+	text-align:  left;
+	border: 1px solid;
+	margin-left: 700px ;
 }
 
+.flex-center {
+	padding: 0px 100px;
+}
+
+/*
+.flex-contenedor{
+	display: flexbox;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
 #cajapadre { 
-	text-align: center; 
-	width: 290px; 
+	text-align: center;
+	width: 400px; 
 	border: 1px solid;
 }
 #caja-1 { 
-	float: left;
-	width: 260px;
 	height: 350px;
 	margin: 5px;
-/* background-color: blue;*/
-}
+	text-align: left;
+	border: 1px solid;
+*/
 
+/*
 .restaurar {
 clear: both;
-}
+}*/
+/* .alin-izq{
+    text-align: left;
+}*/
 
 /* Miembros Preferentes*/
 
@@ -208,3 +222,51 @@ clear: both;
 	border: 2px solid rgb(159,107,61);
 	color: rgb(159,107,61);
 } 
+
+@media(max-width: 1043px){
+
+	.texto-portada{
+	width: 100%;
+	padding: 0px 10px;
+
+	}
+
+}
+
+@media(max-width: 1200px){
+	.habitaciones{
+		width: 100%;
+		padding: 0px 10px;
+		flex-wrap: wrap;
+	}
+}
+
+@media(max-width: 1192px){
+	.restaurantes{
+		padding: 0px 50px;
+		flex-wrap: wrap;
+	}
+}
+
+@media(max-width: 1043px){
+
+	.flex-col{
+		width: 100%;
+		padding: 0px 10px;
+	 
+	}
+
+}
+
+@media(max-width: 1200px){
+	.flex-col{
+			/* flex-direction: column; */
+		/*justify-content: center;*/
+	
+		/* border: 1px solid black; */
+	
+		/*margin: 0px;*/
+
+		margin: 0 80px ;
+	}
+}

@@ -1,0 +1,40 @@
+body{
+	background: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contenedorHIS {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(226, 224, 224);
+    border: double black;
+    width: 80%;
+    padding: 10px 100px;
+    color: #a47449;
+    margin-left: 100px;
+  
+}
+.contenedorEstadia {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(248, 245, 241);
+    border: double black;
+    width: 30%;
+    padding: 10px 10px;
+    margin-left: 650px;
+  
+      
+}
+
+.colorM{
+    text-align: center;
+    color: #a47449 ;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.centrar{
+    text-align: center;
+}

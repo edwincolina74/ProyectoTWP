@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/estilos1.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reserv.css">
+    <script type="text/javascript" src="js/reservas.js"></script>
+</head>
+<body>
+ <!-- CABECERA! -->
+ <header class="cabecera">
+
+    <div><a href="index.html"><img src="imagenes/inicio/logohotel.png"></a> </div>
+
+    <div><a href="index.html">HOTEL IMPERIAL</a> </div>
+
+    <div> <a href="habitaciones.html" >Habitaciones</a> </div>
+    <div><a href="ofertas.html">Paquetes y Ofertas</a> </div>
+    <div><a href="eventos.html">Eventos</a></div>	
+    <div><a href="bodas.html">Bodas</a> </div>
+    <div><a href="servicios.html">Servicios</a></div>
+    <div><a href="atracciones.html">Atracciones locales</a></div>
+    <div><a href="contactoyubicacion.html">Contactanos</a></div> 
+    <div><a href="index.html"><img src="imagenes/inicio/logohotel.png"></a> </div>
+
+</header>
+<!-- FIN CABECERA -->
+
+<br><br><br>
+    <div > 
+        
+        <form  class="contenedorHIS" name="formulario">
+            <div>  
+                <h1>Huespedes</h1>
+                <label>Ingrese número de adultos: </label>
+                <input type="text" name="nAdultos" value="1"> <br>
+                <label>Ingrese número de niños  : </label>
+                <input type="text" name="nNinos" placeholder="0"> <br><br><br>
+                <input type="button" name="" onclick="validarDatos()" value="Costo">
+            </div>
+            <div>
+                <h1>Ingreso</h1>
+                <label>Ingrese fecha de Ingreso: </label>
+                <input type="date" name="fIngreso"> <br>
+
+            </div>
+            <div>
+                <h1>Salida</h1>
+                <label>Ingrese fecha de salida  : </label>
+                <input type="date" name="fSalida">
+            </div>
+
+    </form>
+    
+        <br>
+        <br>
+
+            <h1 class="colorM">Su estadía</h1>
+
+    <form name="formulario2">
+            <div class="contenedorEstadia">
+                    <div>
+                        <p class="negrita"> Check-in:</p>
+                        <p> Despues de 15:00 </p>
+                        <textarea name="fechaI" rows="2" ></textarea>
+                        <!--<div id="fechaI"></div>-->
+                     </div>
+                    <div>
+                        <p class="negrita"> Check-out: </p>
+                        <p> Antes de 13:00 </p>
+                        <textarea name="fechaS" rows="2" ></textarea>
+
+                    </div>
+
+            </div>
+  
+                    <hr>
+                 
+                    <p class="negrita colorM"> COSTO</p>   
+                    <center><textarea name="costo" rows="5" ></textarea> </center>
+    </form>
+</div>
+<br><br><br>
+
+<!--PIE DE PAGINA-->
+
+	<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col">
+						<h4>HOTEL IMPERIAL</h4>
+						<ul>
+							<li> <p>Calle los claveles 155, Lima, Perú </p>	</li>
+							<li><p>(511) 285-3015</p></li>
+							<li> <p>consulta@hotelimperial.com.pe</p></li>
+		
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>INFORMACION</h4>
+						<ul>
+							<li><a href="contactoyubicacion.html">Contacto y ubicación</a></li>
+							<li><a href="libro.html">libro de reclamaciones</a></li>
+ 
+						</ul>    
+					</div>
+					<div class="footer-col">
+						<h4>REGISTRATE</h4>
+						<ul>
+							<li><a href="miembrospreferentes.html">miembros preferentes</a></li>
+							
+								<form class="pie-subscribete">
+									<label>SUBSCRIBETE</label>
+									<input type="email" name="nombre" placeholder="Ingresar correo electrónico">
+									<input type="submit" name="aceptar" value="REGISTRATE">
+								</form>
+						</ul> 
+					</div>
+					<div class="footer-col">
+						<h4>SIGUENOS</h4>
+						<div class="social-links iconos-tamano">
+	
+						<a href="https://web.facebook.com/Hoteles.com/about/?ref=page_internal&_rdc=1&_rdr"> <img src="imagenes/inicio/facebook.png"></a>
+						<a href="https://twitter.com/riuhoteles" ><img src="imagenes/inicio/twitter.png"></a>
+							<a href="https://www.instagram.com/hotelsdotcom/"><img src="imagenes/inicio/instagram.png"></a>
+							<a href="https://www.youtube.com/channel/UCrpymEUtWUYzLoK-fGG8uXA"><img src="imagenes/inicio/youtube.png"></a>
+	
+						</div>
+					</div>
+				</div>
+			</div>
+    </footer>
+
+          
+</body>
+</html>
