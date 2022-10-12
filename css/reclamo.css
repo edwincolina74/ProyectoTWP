@@ -23,23 +23,26 @@ body{
 }
 /****/
 
-a:hover {
-  color: #1E2BDC;
+.titulo {
+  text-align: center;
+  font-weight: 1000;
+  color: #a47449;
+  padding: 0.2em;
+  border-radius: 0.5em;
+  font-size: 60px;
 }
 
-label{
-  justify-content: sans-serif;
+.datos {
+  font-size: 2.0rem;
+  color: #a47449;
+  text-align: center
 }
+
 
 .general {
-
   border-radius: 20px;
   margin: 20px;
-  background: white;
-}
-
-.titulo{
-  text-align: center;
+  background: white
 }
 
 .fila {
@@ -58,13 +61,13 @@ label{
 }
 
 .celda a:hover {
-  color: skyblue;
+  color: #1E2BDC;
 
 }
 
 .celda a {
   text-decoration: none;
-  color: blue;
+  color: white;
 }
 
 
@@ -79,28 +82,42 @@ label{
 
 .contact-form {
   padding: 20px;
-  background: #F6F2E7;
+  background: #F1F2DE;
   border-radius: 20px;
-
 }
 
 .file {
   border-bottom: 1px white;
 }
 
+#archivo {
+  width: 9%;
+  padding: 0;
+  color: black;
+  border-bottom: 0;
+}
+
+#enviar{
+  width: 8%;
+  padding: 2px;
+  border: 1px solid black;
+  background: white;
+  color: black;
+
+}
+
+.center{
+  text-align: center;
+}
+
+form input,
 form textarea {
   width: 100%;
   padding: .7em;
   border: none;
-  background: none;
+  background: #F1F2DE;
   color: black;
   border-bottom: 1px solid black;
-}
-
-p {
-  margin: 0;
-  padding: 1em;
-  text-align: center;
 }
 
 select {
@@ -113,6 +130,7 @@ select {
 }
 
 .efecto {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
   border-radius: 20px;
 
 }
@@ -184,14 +202,6 @@ select {
 a{
   text-decoration: none;
   color: white;
-}
-
-
-.habitaciones-portada{
-  display: flex;
-  flex-direction: column  ;
-  padding: 0px 20%;
-     
 }
 
 /* Servicios habitaciones */

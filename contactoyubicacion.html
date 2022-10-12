@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/contactoyubicacion.css">
+	<script type="text/javascript" src="js/contactoyubicacion1.js"></script>
 </head>
 <body>
 
@@ -19,7 +20,8 @@
 			<a href="bodas.html">Bodas</a>
 			<a href="servicios.html">Servicios</a>
 			<a href="atracciones.html">Atracciones locales</a>
-			<a href="contactoyubicacion.html">Contactanos</a> 
+			<a href="contactoyubicacion.html">Contáctanos</a> 
+			<a href="ejercicios.html" target="contenido">Ejercicios</a>
 		</nav>
 		<a href="index.html"><img src="imagenes/inicio/logohotel.png"></a>
 	</header>
@@ -46,22 +48,23 @@
 	<div>
 		<div class="form2">
 			<label>Nombre:</label>
-			<input type="text-align" name="nombre">
+			<input type="text-align" name="nombre" onkeypress="return soloLetras(event)" id="nom" required="">
 		</div>
 	<div class="form2">
 		<label>Apellido:</label>
-		<input type="text-align" name="apellido">
+		<input type="text-align" name="apellido" onkeypress="return soloLetras(event)" id="ape" required="">
 	</div>
 		<div class="form2">
 			<label>Teléfono:</label>
-			<input type="tel" name="telf">
+			<input type="tel" name="telf" onkeypress="return ValidaSoloNumeros()" id="fono" required="">
 		<div class="form2">
 		<label>Email:</label>
-		<input type="Email" name="email">
+		<input type="email" id="correo" name="correo"
+          onkeypress="return validacorreo(event)" required="">
 		</div>
 		<div class="form2">
 			<label>Comentario:</label>
-			<textarea name="comen"></textarea>
+			<textarea name="comen" rows="1"></textarea>
 		</div>
 	</div>
 
@@ -72,7 +75,7 @@
 
 	<div class="botonenvio">
 		<div class="botonenvio1">
-		<button type="submit">
+		<button type="button" onclick="validar()" respuesta>
 			<img src="imagenes/contactanos/enviar1.png" alt= "enviar">
 		</button>
 		</div>		

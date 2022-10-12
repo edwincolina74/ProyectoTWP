@@ -24,44 +24,6 @@ body{
 }
 /****/
 
-.navegacion2 a {
-	font-size: 50px;
-	text-decoration: none;
-	color: #564B0E;
-}
-
-.centrar{
-	font-size: 60px;
-	align-items: center;
-	text-align: center;
-	color: #A47449;
-}
-
-.centrar2{
-	font-size: 40px;
-	align-items: center;
-	text-align: center;
-	color: #A47449;
-}
-
-h3{
-	font-size: 25px;
-	align-items: center;
-	text-align: center;
-	color: #A47449;
-	justify-content: center;
-
-}
-
-.parrafo{
-	font-size: 17px;
-}
-
-.precio {
-	color: red;
-	font-weight: 800
-}
-
 .tabla {
 	justify-content: center;
 	background: #F1F2DE;
@@ -70,62 +32,33 @@ h3{
 	margin: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
 }
+
 .fila {
 	width: 100%;
 	display: flex;
 	flex: flex-basis 25%;
-	text-align: center;
 	justify-content: space-evenly;
 }
+
+fieldset{
+	width: 93%;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #F1F2DE;
+	border-radius: 10px;
+}
+
 .celda {
 	text-align: center;
+	box-sizing: border-box;
 	width: 100%;
 	overflow: hidden;
 	margin: 0.5%;
 }
-
-.espe{
-	border-radius: 15px;
-	text-align: center;
-	padding-right: 100px;
- 	width: 300px;
- 	height: 300px;
-}
-
-.espe img{
-	align-items: center;
-	height: 100vh;
-	border-radius: 15px;
-	display: flex;
-	position: absolute;
-}
-
-.item-ofertas{
-	justify-content: space-evenly;
-	border-radius: 10px;
-	text-align: center;
-	position: relative;
-	width: 400px;
-	height: 400px;
-	margin: 20px;
-	display: flex;
-}
-
-.noved {
-	width: 70%;
-} 
-
-.contenedor-ofertas {
-	display: flex;
-	width: 95%;
-	padding: 10px;
-	margin: 10px auto;
-	justify-content: space-evenly;
-	background: #A1E3D8;
-	border-radius: 10px;
-	text-align: center;
+.form {
+	background: none
 }
 
 /******PIE DE PAGINA*********/
