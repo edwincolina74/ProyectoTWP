@@ -17,19 +17,19 @@
 	<!-- CABECERA! -->
 	<header class="cabecera">
 
-		<div><a href="index.html"><img src="imagenes/inicio/logohotel.png"></a> </div>
+		<div><a href="index.php"><img src="imagenes/inicio/logohotel.png"></a> </div>
 	
-		<div><a href="index.html">HOTEL IMPERIAL</a> </div>
+		<div><a href="index.php">HOTEL IMPERIAL</a> </div>
 
-		<div> <a href="habitaciones.html" >Habitaciones</a> </div>
-		<div><a href="ofertas.html">Paquetes y Ofertas</a> </div>
-		<div><a href="eventos.html">Eventos</a></div>	
-		<div><a href="bodas.html">Bodas</a> </div>
-		<div><a href="servicios.html">Servicios</a></div>
-		<div><a href="atracciones.html">Atracciones locales</a></div>
-		<div><a href="contactoyubicacion.html">Contactanos</a></div> 
-		<div><a href="ejercicios.html" target="contenido">Ejercicios</a></div> 
-				<div><a href="index.html"><img src="imagenes/inicio/logohotel.png"></a> </div>
+		<div> <a href="habitaciones.php" >Habitaciones</a> </div>
+		<div><a href="ofertas.php">Paquetes y Ofertas</a> </div>
+		<div><a href="eventos.php">Eventos</a></div>	
+		<div><a href="bodas.php">Bodas</a> </div>
+		<div><a href="servicios.php">Servicios</a></div>
+		<div><a href="atracciones.php">Atracciones locales</a></div>
+		<div><a href="contactoyubicacion.php">Contactanos</a></div> 
+		<div><a href="ejercicios.php" target="contenido">Ejercicios</a></div> 
+				<div><a href="index.php"><img src="imagenes/inicio/logohotel.png"></a> </div>
 
 	</header>
 <!-- FIN CABECERA -->
@@ -63,7 +63,7 @@
 				<p>Las habitaciones están situadas entre los pisos 2 y 7 y cuentan con una cama tamaño king o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, dos líneas de teléfono con buzón de voz, reloj despertador, caja fuerte, cafetera y un minibar. </p>
 
 				<div class="resev">
-					<a  href="reservarahora.html" target="blank">RESERVAR AHORA</a>
+					<a  href="reservarahora.php" target="blank">RESERVAR AHORA</a>
 				</div>
 			</div>
 
@@ -71,7 +71,7 @@
 				<img src="imagenes/inicio/plus.jpg">
 				<p>Las habitaciones están ubicadas en los pisos del 8 al 11. Cuentan con una cama King o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, carta de almohadas, máquina de café ILLY, despertador con puerto para iPod, caja de seguridad digital.</p>
 				<div class="resev">
-					<a  href="reservarahora.html" target="blank">RESERVAR AHORA</a>
+					<a  href="reservarahora.php" target="blank">RESERVAR AHORA</a>
 				</div>
 			</div>
 
@@ -79,12 +79,14 @@
 				<img src="imagenes/inicio/lujo.jpg">
 				<p>Se encuentra desde los pisos 12 al 14 en una ubicación privilegiada para brindarle una vista espectacular de una de las áreas verdes más grandes de la ciudad, carta de almohadas, máquina de café ILLY, cuentan con una cama tamaño king o dos camas dobles</p>
 				<div class="resev">
-					<a  href="reservarahora.html" target="blank">RESERVAR AHORA</a>
+					<a  href="reservarahora.php" target="blank">RESERVAR AHORA</a>
 				</div>
 			</div>
 		</div>
 
 		<!--   -->
+
+		
 		<hr>
 		<!-- RESTAURANTES Y BARES    -->
 
@@ -117,15 +119,15 @@
 			<div class="footer-col">
 				<h4>INFORMACION</h4>
 				<ul>
-					<li><a href="contactoyubicacion.html">Contacto y ubicación</a></li>
-					<li><a href="libro.html">libro de reclamaciones</a></li>
+					<li><a href="contactoyubicacion.php">Contacto y ubicación</a></li>
+					<li><a href="libro.php">libro de reclamaciones</a></li>
 
 				</ul>    
 			</div>
 			<div class="footer-col">
 				<h4>REGISTRATE</h4>
 				<ul>
-					<li><a href="miembrospreferentes.html">miembros preferentes</a></li>
+					<li><a href="miembrospreferentes.php">miembros preferentes</a></li>
 					
 						<form class="pie-subscribete">
 							<label>SUBSCRIBETE</label>

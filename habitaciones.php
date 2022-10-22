@@ -18,18 +18,18 @@
 	<!-- CABECERA! -->
 	<header class="cabecera">
 
-		<div><a href="index.html"><img src="imagenes/inicio/logohotel.png"></a> </div>
+		<div><a href="index.php"><img src="imagenes/inicio/logohotel.png"></a> </div>
 	
-		<div><a href="index.html">HOTEL IMPERIAL</a> </div>
+		<div><a href="index.php">HOTEL IMPERIAL</a> </div>
 
-		<div> <a href="habitaciones.html" >Habitaciones</a> </div>
-		<div><a href="ofertas.html">Paquetes y Ofertas</a> </div>
-		<div><a href="eventos.html">Eventos</a></div>	
-		<div><a href="bodas.html">Bodas</a> </div>
-		<div><a href="servicios.html">Servicios</a></div>
-		<div><a href="atracciones.html">Atracciones locales</a></div>
-		<div><a href="contactoyubicacion.html">Contactanos</a></div> 
-		<div><a href="index.html"><img src="imagenes/inicio/logohotel.png"></a> </div>
+		<div> <a href="habitaciones.php" >Habitaciones</a> </div>
+		<div><a href="ofertas.php">Paquetes y Ofertas</a> </div>
+		<div><a href="eventos.php">Eventos</a></div>	
+		<div><a href="bodas.php">Bodas</a> </div>
+		<div><a href="servicios.php">Servicios</a></div>
+		<div><a href="atracciones.php">Atracciones locales</a></div>
+		<div><a href="contactoyubicacion.php">Contactanos</a></div> 
+		<div><a href="index.php"><img src="imagenes/inicio/logohotel.png"></a> </div>
 
 	</header>
 <!-- FIN CABECERA -->
@@ -55,7 +55,7 @@
 				<h3> HABITACION SUPERIOR</h3>
 				<p>Las habitaciones están ubicadas en los pisos del 2 al 10. Cuentan con una cama King o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, carta de almohadas, máquina de café ILLY, despertador con puerto para iPod, caja de seguridad digital, dos líneas telefónicas con correo de voz y minibar.Las habitaciones miden 33 m² (108 ft). Tiene acceso a nuestro exclusivo Executive Lounge, ubicado en el piso 12. Es un espacio donde se puede disfrutar de un delicioso desayuno, snacks, bebidas no alcohólicas ilimitadas y asistencia personalizada. </p>
 						<div class="resev">
-						<a  href="reservarahora.html" target="blank">RESERVAR AHORA</a>
+						<a  href="reservarahora.php" target="blank">RESERVAR AHORA</a>
 					</div>
 			</div>
 			<div class="foto-habitaciones item-habitaciones">	
@@ -63,7 +63,7 @@
 				<h3> HABITACION PLUS</h3>
 				<p>Tiene acceso a nuestro exclusivo Executive Lounge, ubicado en el piso 12. Es un espacio donde se puede disfrutar de un delicioso desayuno, snacks, bebidas no alcohólicas ilimitadas y asistencia personalizada. También en el mismo piso se encuentra el Directorio, donde podrá realizar importantes reuniones de trabajo.carta de almohadas, máquina de café ILLY,disfrutar de un delicioso desayuno, snacks, bebidas no alcohólicas ilimitadas y asistencia personalizada, donde podrá realizar importantes reuniones de trabajo. Reservelo ahora mismo </p>
 					<div class="resev">
-						<a  href="reservarahora.html" target="blank">RESERVAR AHORA</a>
+						<a  href="reservarahora.php" target="blank">RESERVAR AHORA</a>
 					</div>
 			</div>
 
@@ -72,7 +72,7 @@
 				<h3> HABITACION EJECUTIVA</h3>
 				<p>Se encuentra desde los pisos 12 al 14 en una ubicación privilegiada para brindarle una vista espectacular de una de las áreas verdes más grandes de la ciudad, el Lima Golf Club. Las habitaciones están equipadas con una cama King o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, dos líneas telefónicas con buzón de voz, reloj despertador, caja fuerte en la habitación, cafetera, plancha y tabla de planchar, minibar y hermosos baños de mármol blanco que incluyen bañeras de hidromasaje.Reservelo ahora mismo</p>
 					<div class="resev">
-						<a  href="reservarahora.html" target="blank">RESERVAR AHORA</a>
+						<a  href="reservarahora.php" target="blank">RESERVAR AHORA</a>
 					</div>
 			</div>
 					
@@ -86,7 +86,7 @@
 				<h3 > HABITACION VIP</h3>
 				<p>Las habitaciones están ubicadas en los pisos del 8 al 11. Cuentan con una cama King o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, carta de almohadas, máquina de café ILLY, despertador con puerto para iPod, caja de seguridad digital, dos líneas telefónicas con correo de voz y minibar. Las habitaciones miden 33 m² (108 ft)carta de almohadas, máquina de café MAGIC ycarta de almohadas, máquina de café ILLY, despertador con puerto para IPAD. reservelo ahora mismo. </p>
 					<div class="resev">
-						<a  href="reservarahora.html" target="blank">RESERVAR AHORA</a>
+						<a  href="reservarahora.php" target="blank">RESERVAR AHORA</a>
 					</div>
 			</div>
 			<div class="foto-habitaciones item-habitaciones">
@@ -94,7 +94,7 @@
 				 <h3> HABITACION PLUS II</h3>
 					<p>Se encuentra desde los pisos 12 al 14 en una ubicación privilegiada para brindarle una vista espectacular de una de las áreas verdes más grandes de la ciudad. Las habitaciones están equipadas con una cama King o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, dos líneas telefónicas con buzón de voz, reloj despertador, caja fuerte en la habitación, cafetera, plancha y tabla de planchar, minibar y hermosos baños de mármol blanco que incluyen bañeras de hidromasaje.</p>
 					<div class="resev">
-						<a  href="reservarahora.html" target="blank">RESERVAR AHORA</a>
+						<a  href="reservarahora.php" target="blank">RESERVAR AHORA</a>
 					</div>
 			</div>
 			<div  class="foto-habitaciones item-habitaciones">	
@@ -102,7 +102,7 @@
 					<h3> HABITACION EJECUTIVA II</h3>
 						<p>Las habitaciones están ubicadas en los pisos del 8 al 11. Cuentan con una cama King o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, carta de almohadas, máquina de café ILLY, despertador con puerto para iPod, caja de seguridad digital, dos líneas telefónicas con correo de voz y minibar.Las habitaciones miden 40 m².Tiene acceso a nuestro exclusivo Executive Lounge, ubicado en el piso 12. Es un espacio donde se puede disfrutar de un delicioso desayuno, snacks./p>
 					<div class="resev">
-						<a  href="reservarahora.html" target="blank">RESERVAR AHORA</a>
+						<a  href="reservarahora.php" target="blank">RESERVAR AHORA</a>
 					</div>
 			</div>
 		</div>			
@@ -162,15 +162,15 @@
 			<div class="footer-col">
 				<h4>INFORMACION</h4>
 				<ul>
-					<li><a href="contactoyubicacion.html">Contacto y ubicación</a></li>
-					<li><a href="libro.html">libro de reclamaciones</a></li>
+					<li><a href="contactoyubicacion.php">Contacto y ubicación</a></li>
+					<li><a href="libro.php">libro de reclamaciones</a></li>
 
 				</ul>    
 			</div>
 			<div class="footer-col">
 				<h4>REGISTRATE</h4>
 				<ul>
-					<li><a href="miembrospreferentes.html">miembros preferentes</a></li>
+					<li><a href="miembrospreferentes.php">miembros preferentes</a></li>
 					
 						<form class="pie-subscribete">
 							<label>SUBSCRIBETE</label>

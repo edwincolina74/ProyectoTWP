@@ -15,18 +15,18 @@
  <!-- CABECERA! -->
  <header class="cabecera">
 
-    <div><a href="index.html"><img src="imagenes/inicio/logohotel.png"></a> </div>
+    <div><a href="index.php"><img src="imagenes/inicio/logohotel.png"></a> </div>
 
-    <div><a href="index.html">HOTEL IMPERIAL</a> </div>
+    <div><a href="index.php">HOTEL IMPERIAL</a> </div>
 
-    <div> <a href="habitaciones.html" >Habitaciones</a> </div>
-    <div><a href="ofertas.html">Paquetes y Ofertas</a> </div>
-    <div><a href="eventos.html">Eventos</a></div>	
-    <div><a href="bodas.html">Bodas</a> </div>
-    <div><a href="servicios.html">Servicios</a></div>
-    <div><a href="atracciones.html">Atracciones locales</a></div>
-    <div><a href="contactoyubicacion.html">Contactanos</a></div> 
-    <div><a href="index.html"><img src="imagenes/inicio/logohotel.png"></a> </div>
+    <div> <a href="habitaciones.php" >Habitaciones</a> </div>
+    <div><a href="ofertas.php">Paquetes y Ofertas</a> </div>
+    <div><a href="eventos.php">Eventos</a></div>	
+    <div><a href="bodas.php">Bodas</a> </div>
+    <div><a href="servicios.php">Servicios</a></div>
+    <div><a href="atracciones.php">Atracciones locales</a></div>
+    <div><a href="contactoyubicacion.php">Contactanos</a></div> 
+    <div><a href="index.php"><img src="imagenes/inicio/logohotel.png"></a> </div>
 
 </header>
 <!-- FIN CABECERA -->
@@ -104,15 +104,15 @@
 					<div class="footer-col">
 						<h4>INFORMACION</h4>
 						<ul>
-							<li><a href="contactoyubicacion.html">Contacto y ubicación</a></li>
-							<li><a href="libro.html">libro de reclamaciones</a></li>
+							<li><a href="contactoyubicacion.php">Contacto y ubicación</a></li>
+							<li><a href="libro.php">libro de reclamaciones</a></li>
  
 						</ul>    
 					</div>
 					<div class="footer-col">
 						<h4>REGISTRATE</h4>
 						<ul>
-							<li><a href="miembrospreferentes.html">miembros preferentes</a></li>
+							<li><a href="miembrospreferentes.php">miembros preferentes</a></li>
 							
 								<form class="pie-subscribete">
 									<label>SUBSCRIBETE</label>
