@@ -22,28 +22,25 @@
 	include "Intro/cabecera.php"
 ?>
 
-
-
-
 	<div class="formulario colorbackn">
 		<h4>EJERCICIO N°3</h4>
 		<form method="GET" name="ejercicio3" action="salidaEjercicio3.php">
 	
-					<label class="controls">Nombre del cliente :</label><input class="controls" type="text" name="nCliente"><br>
-					<label class="controls">Dirección del cliente:</label><input class="controls" type="text" name="dCliente"><br>
-					<label class="controls">Nombre del producto:</label><input class="controls" type="text" name="nProducto"><br>
-					<label>Tipo de Producto :</label>
-					<select class="cont" name="tProducto">
-						<option >Abarrotes</option>
-						<option >Limpieza</option>
-						<option >Juguetes</option>
-						<option >Otros</option>
-					</select> <br>
+			<label class="controls">Nombre del cliente :</label><input class="controls" type="text" name="nCliente"><br>
+			<label class="controls">Dirección del cliente:</label><input class="controls" type="text" name="dCliente"><br>
+			<label class="controls">Nombre del producto:</label><input class="controls" type="text" name="nProducto"><br>
+			<label>Tipo de Producto :</label>
+			<select class="cont" name="tProducto">
+				<option >Abarrotes</option>
+				<option >Limpieza</option>
+				<option >Juguetes</option>
+				<option >Otros</option>
+			</select> <br>
 
-					<label class="controls">Precio unitario     :</label><br><input class="controls" type="text" name="pUnitario"><br>
-					<label class="controls">Cantidad            :</label><br><input class="controls" type="text" name="cantidad" value=1><br><br>
+			<label class="controls">Precio unitario :</label><br><input class="controls" type="text" name="pUnitario"><br>
+			<label class="controls">Cantidad        :</label><br><input class="controls" type="text" name="cantidad" value=1><br><br>
 
-					<input class="boton" type="button" name="" onclick="validarDatos()" value="CALCULAR PAGO FINAL"><br><br>
+			<input class="boton" type="button" name="" onclick="validarDatos()" value="CALCULAR PAGO FINAL"><br><br>
 		</form>
 
 	</div>
