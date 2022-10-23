@@ -6,18 +6,26 @@
 	<title></title>
 	<script type="text/javascript" src="ejercicio3/validacionEjercicio3.js"></script>
 	<link rel="stylesheet" type="text/css" href="ejercicio3/ejercicio3.css">
+
 	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	
+
+
 </head>
 <body>
 
 <?php
 	include "Intro/cabecera.php"
 ?>
-	<section class="formulario colorbackn">
+
+
+
+
+	<div class="formulario colorbackn">
 		<h4>EJERCICIO N°3</h4>
 		<form method="GET" name="ejercicio3" action="salidaEjercicio3.php">
 	
@@ -36,11 +44,12 @@
 					<label class="controls">Cantidad            :</label><br><input class="controls" type="text" name="cantidad" value=1><br><br>
 
 					<input class="boton" type="button" name="" onclick="validarDatos()" value="CALCULAR PAGO FINAL"><br><br>
+		</form>
 
-	</section>
+	</div>
 
-	</form>
-<br><br><br>
+<br><br>
+
 
 <?php
 	include "Intro/piepagina.php"
