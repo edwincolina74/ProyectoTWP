@@ -47,7 +47,7 @@
 			break;		
 	}
 
-	$pagoFinal= ($puni-($puni*$descuento))*$cant;
+	$pagoFinal= (floatval($puni)-(floatval($puni)*$descuento))*$cant; 
 	$porcentaje=($descuento*100);
 
 ?>
