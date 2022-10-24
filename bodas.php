@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/bodas1.css">
+	<title>PROYECTO HOTEL IMPERIAL</title>
+
 	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,6 @@
 <?php
 	include "Intro/cabecera.php"
 ?>
-
 	<br>
 	<br>
 	<h1 id= "titulo">SALONES PARA BODAS</h1>
