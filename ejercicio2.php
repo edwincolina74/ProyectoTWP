@@ -21,20 +21,21 @@
 
 <h3 class="fila">Ejercicio 2:</h3>
 		<form>
-			<div class="celda">
-				<label>Ingrese la cantidad de numeros</label>
-				<input type="text" name="cantidadnum" onkeypress="return ValidaSoloNumeros()"><br>
+			<div >
+				<label class="controls">Ingrese Cantidad de Números Aleatorios:</label><br>
+            <br>
+				<input Class="controls" type="number" name="cantidadnum" onkeypress="return ValidaSoloNumeros()"><br>
 			</div>
-			<div class="celda">
-				<input type="submit" name="cal" value="Calcular"><br>
+			<div >
+				<input class="boton" type="submit" name="cal" value="Calcular"><br>
 			</div>
-			<div class="fila">
+			<div >
 				<?php
 				$cant = 0;
 				if (isset($_GET['cal'])) {
 					$cant = $_GET['cantidadnum'];
 					$numeros;
-					echo "<table border='1'><tr><td>Número</td><td>Suma de dígitos</td><td>Descripcion</td></tr>";
+					echo "<table border='5'><tr><td>Número</td><td>Suma de dígitos</td><td>Descripcion</td></tr>";
 					for ($i = 0; $i <= ($cant - 1); $i++) {
 						$numeros[$i] = mt_rand(20, 100);
 						echo "<tr><td>$numeros[$i]</td>";
@@ -60,3 +61,7 @@
 			</div>
 			<br>
 		</form>
+
+</body>
+
+</html>
