@@ -6,7 +6,6 @@
 	<title>Ejercicio 1</title>
 	<link rel="stylesheet" type="text/css" href="css/reclamo.css">
 	<script type="text/javascript" src="js/ejercicio 1.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/reclamo.css">
 	<script type="text/javascript" src="js/reclamos.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
 	<link rel="stylesheet" href="css/style.css">
