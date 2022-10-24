@@ -26,3 +26,29 @@ function ValidarFloat() {
             return false;
 	}
 }
+
+function validar() {
+	var producto = document.getElementById("producto").value;
+	var meses = document.getElementById("meses").value;
+	var monto = document.getElementById("monto").value;
+	var tarjeta = document.getElementById("tarjeta").value;
+
+	if (producto.length == 0 || producto == null) {
+		alert("Ingrese el nombre de operación.");
+	}
+	else if (meses.length == 0 || meses == null) {
+		alert("Ingrese numero de meses");
+	}
+	else if (monto.length == 0 || monto == null) {
+		alert("Ingrese el monto.");
+	}
+	else if (tarjeta == "Seleccione") {
+		alert("Seleccione el tipo de tarjeta.");
+	}
+	else {
+		if (confirm("Estas seguro de enviar los datos?") == true) {
+			document.getElementById("enviar1").submit();
+		}
+	}
+}
+

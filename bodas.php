@@ -3,7 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>PROYECTO HOTEL IMPERIAL</title>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/contactoyubicacion.css">
+	<script type="text/javascript" src="js/contactoyubicacion1.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
 	<link rel="stylesheet" href="css/style.css">
