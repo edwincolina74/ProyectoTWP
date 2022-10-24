@@ -5,25 +5,18 @@
 	<title>Libro de Reclamaciones</title>
 	<link rel="stylesheet" type="text/css" href="css/reclamo.css">
 	<script type="text/javascript" src="js/reclamos.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
-
 <body>
-	<!-- CABECERA -->
-	<header class="cabecera">
-		<a href="index.html"><img src="imagenes/inicio/logohotel.png"></a>
-		<nav class="navegacion">
-			<a href="index.html">HOTEL IMPERIAL</a>
-			<a href="habitaciones.html" >Habitaciones</a>
-			<a href="ofertas.html">Paquetes y Ofertas</a>
-			<a href="eventos.html">Eventos</a>
-			<a href="bodas.html">Bodas</a>
-			<a href="servicios.html">Servicios</a>
-			<a href="atracciones.html">Atracciones locales</a>
-			<a href="contactoyubicacion.html">Contáctanos</a> 
-			<a href="ejercicios.html" target="contenido">Ejercicios</a>
-		</nav>
-		<a href="index.html"><img src="imagenes/inicio/logohotel.png"></a>
-	</header>
+	<!-- CABECERA --> 
+	<?php
+	include "Intro/cabecera.php"
+	?>
+	<!-- FIN CABECERA    -->
 	<!-- FIN CABECERA    -->
 	<h1 class="titulo">LIBRO DE RECLAMACIONES</h1>
 	<div class="general">
@@ -107,7 +100,7 @@
 								<p>
 									<label>Nro de Documento</label>
 									<input type="number" name="DNI" id="dni"
-										onkeypress="return soloNumeros(event)">
+									onkeypress="return soloNumeros(event)">
 								</p>
 							</div>
 							<div class="celda">
@@ -123,7 +116,7 @@
 								<p>
 									<label>Número telefonico</label>
 									<input type="number" name="fono" id="fono"
-										onkeypress="return soloNumeros(event)">
+									onkeypress="return soloNumeros(event)">
 								</p>
 							</div>
 							<div class="celda">
@@ -134,11 +127,11 @@
 							</div>
 						</div>
 
-						</div>
-
-
 					</div>
+
+
 				</div>
+			</div>
 
 			<div class="marco">
 				<div class="efecto">
@@ -214,7 +207,7 @@
 			<div class="texto">
 				<p class="center">
 					<input type="checkbox" name="condicion" alt="check" id="checkbox">
-				<label>Al hacer click aqui acepto que almacenen mis datos para darme una respuesta</label>
+					<label>Al hacer click aqui acepto que almacenen mis datos para darme una respuesta</label>
 				</p>
 				<p class="center">
 					<input id="enviar" type="reset" name="borrar" value="Borrar" onclick="return ConfirmDelete()">
@@ -225,49 +218,11 @@
 		</form>
 	</div>
 	<!-- PIE DE PAGINA -->
+	<?php
+	include "Intro/piepagina.php"
+	?>
 
-	<footer >
-		<div class="contenedor-pie-pagina1">
-			<div class="pie-columna1">
-				<a href="index.html"><h1>HOTEL IMPERIAL</h1></a>
-				<p>Calle los claveles 155, Lima, Perú</p>
-				<p>(511) 285-3015</p>
-				<p>consulta@hotelimperial.com.pe</p>
-			</div>
-			<form class="pie-subscribete">
-				<label>SUBSCRIBETE</label>
-				<input type="email" name="nombre" placeholder="Ingresar correo electrónico">
-				<input type="button" name="aceptar" value="REGISTRATE">
-			</form>
-		</div>
+	<!-- FIN: PIE DE PAGINA -->
 
-		<div class="contenedor-pie-pagina2" >
-			<div>
-				<h2><a href="contactoyubicacion.html">CONTACTO Y UBICACION </a></h2>
-			</div>
-			<div >
-				<h2><a href="miembrospreferentes.html">MIEMBROS PREFERENTES </a></h2>
-			</div>
-			<div class="pie-columna2">		
-				<div>		
-					<h1>SIGUENOS </h1>
-				</div>
-				<div class="iconos-tamano">
-					<p>
-						<a href="https://web.facebook.com/Hoteles.com/about/?ref=page_internal&_rdc=1&_rdr"><img src="imagenes/inicio/facebook.png">
-							<a href="https://twitter.com/riuhoteles" ><img src="imagenes/inicio/twitter.png">
-								<a href="https://www.instagram.com/hotelsdotcom/"><img src="imagenes/inicio/instagram.png">
-									<a href="https://www.youtube.com/channel/UCrpymEUtWUYzLoK-fGG8uXA"><img src="imagenes/inicio/youtube.png">
-									</p>
-								</div>
-							</div>
-							<div>
-								<h2><a href="libro.html"> Libro de Reclamaciones </a></h2>
-							</div>
-						</div>
-					</footer>
-
-					<!-- FIN: PIE DE PAGINA -->
-
-				</body>
-				</html>
+</body>
+</html>

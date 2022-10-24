@@ -4,11 +4,26 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ejercicio 1</title>
+	<link rel="stylesheet" type="text/css" href="css/reclamo.css">
 	<script type="text/javascript" src="js/ejercicio 1.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reclamo.css">
+	<script type="text/javascript" src="js/reclamos.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+	<!-- CABECERA --> 
+	<?php
+	include "Intro/cabecera.php"
+	?>
 	<form  id="enviar1" action="" class="tabla">
 		<br>
+		<div class="marco">
+				<div class="efecto">
+					<div class="contact-form">
 		<h3 class="fila">Ejercicio 1:</h3>
 			<div class="celda">
 				<label>Nombre de operación</label>
@@ -38,7 +53,9 @@
 			<div class="celda">
 				<input type="submit" id="enviar1" name="enviar1" value="Calcular" onclick="validar()">
 			</div>
+
 			<div class="fila">
+
 
 				<?php
 
@@ -81,7 +98,16 @@
 
 				?>
 			</div>
+			</div>
+			</div>
+			</div>
 			<br>
 	</form>
+	<!-- PIE DE PAGINA -->
+	<?php
+	include "Intro/piepagina.php"
+	?>
+
+	<!-- FIN: PIE DE PAGINA -->
 </body>
 </html>
