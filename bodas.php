@@ -5,27 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/bodas1.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	
 </head>
 <body>
 
-<!-- CABECERA -->
-	<header class="cabecera">
-		<a href="index.html"><img src="imagenes/inicio/logohotel.png"></a>
-		<nav class="navegacion">
-			<a href="index.html">HOTEL IMPERIAL</a>
-			<a href="habitaciones.html" >Habitaciones</a>
-			<a href="ofertas.html">Paquetes y Ofertas</a>
-			<a href="eventos.html">Eventos</a>
-			<a href="bodas.html">Bodas</a>
-			<a href="servicios.html">Servicios</a>
-			<a href="atracciones.html">Atracciones locales</a>
-			<a href="contactoyubicacion.html">Contáctanos</a> 
-			<a href="ejercicios.html" target="contenido">Ejercicios</a>
-		</nav>
-		<a href="index.html"><img src="imagenes/inicio/logohotel.png"></a>
-	</header>
+<?php
+	include "Intro/cabecera.php"
+?>
 
-<!-- FIN CABECERA    -->
 	<br>
 	<br>
 	<h1 id= "titulo">SALONES PARA BODAS</h1>
