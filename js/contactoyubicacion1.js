@@ -2,9 +2,9 @@ function validar() {
 	var correo = document.getElementById("correo").value;
 	var nError1 = correo.indexOf("@");
 	var nError2 = correo.indexOf(".");
-	var nombre = document.getElementById("nom").value;
-	var apellido = document.getElementById("ape").value;
-	var telefono = document.getElementById("fono").value;
+	var nombre = document.getElementById("nombre").value;
+	var apellido = document.getElementById("apellido").value;
+	var telefono = document.getElementById("telefono").value;
 	if (nombre.length == 0 || nombre == null) {
 		alert("Ingrese su Nombre");
 	}
@@ -14,7 +14,7 @@ function validar() {
 	else if (telefono.length == 0 || telefono == null) {
 		alert("Ingrese telefono");
 	}
-	else if (nError1 == -1 || nError2 == -1) {
+	else if (nError1 == 0 || nError2 == 0) {
 		alert("Introducir un correo valido");
 	}
 
