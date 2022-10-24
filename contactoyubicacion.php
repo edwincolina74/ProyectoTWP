@@ -88,7 +88,10 @@
 
 <!-- PIE DE PAGINA -->
 
-	
+
+<?php
+	include "Intro/piepagina.php"
+?>	
 
 
 </body>
