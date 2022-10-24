@@ -4,7 +4,7 @@
    	<meta charset="utf-8">
    	<meta name="viewport" content="width=device-width, initial-scale=1">
    
-    <link rel="stylesheet" type="text/css" href="ejercicio3/ejercicio3.css">
+    <link rel="stylesheet" type="text/css" href="css/ejercicio3.css">
 	
 	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -95,6 +95,7 @@
 
 </table>
 <br><br><br>
+
 <?php
 	include "Intro/piepagina.php"
 ?>
