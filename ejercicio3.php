@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<script type="text/javascript" src="ejercicio3/validacionEjercicio3.js"></script>
-	<link rel="stylesheet" type="text/css" href="ejercicio3/ejercicio3.css">
+	<script type="text/javascript" src="js/validacionEjercicio3.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/ejercicio3.css">
 
 	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
 	<link rel="stylesheet" href="css/style.css">

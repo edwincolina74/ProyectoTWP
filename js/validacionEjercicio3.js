@@ -75,37 +75,4 @@ function validarDatos()
 	
 	}
 
-
-
-/*
-
-		else if (!isNaN(nombre)){
-			alert("Su NOMBRE no debe tener valor númerico");	
-		}
-		else if (direccion== ''){
-			alert("Ingrese su DIRECCION");
-		}
-		else if (producto=='') {
-			alert("Ingrese NOMBRE del PRODUCTO");
-		}
-		else if (!isNaN(producto)){
-			alert("El NOMBRE del PRODUCTO no debe tener valor númerico");
-		}
-		else if (isNaN(precio)) {
-			alert("Debe ingresar un valor númerico en el PRECIO");
-		}
-		else if (precio<=0) {
-			alert("Debe ingresar un valor númerico de PRECIO válido");
-		}
-		else if (isNaN(cantidad)) {
-			alert("Debe ingresar un valor númerico en la CANTIDAD");
-		}
-		else if (cantidad<=0) {
-			alert("Debe ingresar un valor númerico de CANTIDAD válido");
-		}
-		else if (cantidad-Math.floor(cantidad)!= 0) {
-			alert("Debe ingresar un valor entero en CANTIDAD");
-		}
-
-		*/
-		
+	
