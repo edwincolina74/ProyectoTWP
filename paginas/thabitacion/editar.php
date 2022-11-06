@@ -13,7 +13,7 @@
 		$datos = buscarTipoHab($cod,$conn);
 
 	?>
-		<form action="../../llamadas/proceso_tipohab.php" method="post">
+		<form action="../../llamadas/proceso_tipohab.php" method="post" enctype="multipart/form-data">
 
 			<input type="hidden" name="codigo" value="<?=$cod?>"><br>
 			<label>Nombre de Tipo de Habitación</label>
@@ -26,6 +26,8 @@
 			<input type="text" name="descripcion" value="<?=$datos[3]?>"><br>
 			<label>Cantidad por Tipo de Habitaciones Disponibles</label>
 			<input type="text" name="cantidad" value="<?=$datos[4]?>"><br>
+			<label>Foto de Habitaciones</label>
+			<input type="file" name="foto"><br>
 
 			<input type="submit" name="accion" value="Actualizar">
 		</form>

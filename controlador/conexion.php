@@ -60,8 +60,8 @@ function listarProducto($conn){
 
 //Tabla tipo *LISTO *
 //método para agreegar registros
-function agregarTipoHab($cod,$nom,$pre,$prep,$des,$can,$conn){
-    $sql="insert into thabitacion values('$cod','$nom','$pre','$prep','$des','$can')";   
+function agregarTipoHab($cod,$nom,$pre,$prep,$des,$can,$fot,$conn){
+    $sql="insert into thabitacion values('$cod','$nom','$pre','$prep','$des','$can','$fot')";   
     mysqli_query($conn, $sql) or die(mysqli_error($conn));
 }
 
@@ -76,6 +76,14 @@ function actualizarTipoHab($cod,$nom,$pre,$prep,$des,$can,$conn){
     $sql="update thabitacion set nombretiphab='$nom',preciotiphab='$pre',preciopreftiphab='$prep',destiphab='$des',canlibretiphab='$can'  where codtiphab='$cod'"; 
     mysqli_query($conn, $sql) or die(mysqli_error($conn));
 }
+//*LISTO*
+function actualizarTodoTipoHab($cod,$nom,$pre,$prep,$des,$can,$fot,$conn){
+    $sql="update thabitacion set nombretiphab='$nom',preciotiphab='$pre',preciopreftiphab='$prep',destiphab='$des',canlibretiphab='$can',fottiphab='$fot'  where codtiphab='$cod'"; 
+    mysqli_query($conn, $sql) or die(mysqli_error($conn));
+}
+
+
+
 
 //método para buscar registro *LISTO*
 function buscarTipoHab($cod,$conn){
@@ -91,7 +99,7 @@ function buscarTipoHab($cod,$conn){
 //*LISTO *
 //método para listar registros 
 function listarTipoHab($conn){
-    $sql="select codtiphab, nombretiphab,preciotiphab,preciopreftiphab,destiphab,canlibretiphab from thabitacion";
+    $sql="select codtiphab, nombretiphab,preciotiphab,preciopreftiphab,destiphab,canlibretiphab,fottiphab from thabitacion";
     $res= mysqli_query($conn, $sql);
     $vec=array();
     while($f= mysqli_fetch_array($res))  

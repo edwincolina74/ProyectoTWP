@@ -20,7 +20,8 @@
 			<th>Precio de Tipo de Habitación</th>
 			<th>Precio por ser Miembro preferente</th>
 			<th>Descripcion de Tipo de Habitacion</th>
-			<th>Cantidad por Tipo de Habitaciones Disponibles</th>
+			<th>Cantidad por Tipo de Habitaciones</th>
+			<th>Foto de Habitaciones</th>
 			<th colspan="2">Acciones</th>
 
 		</tr>
@@ -37,7 +38,9 @@
 				<td><?= $value[3]?></td>
 				<td><?= $value[4]?></td>
 				<td><?= $value[5]?></td>
-
+				<td>
+					<img src="../<?= $value[6]?>" width="100" height="100">
+				</td>
 				<td>
 					<a href="../../llamadas/proceso_tipohab.php?accion=eliminar&codigo=<?= $value[0] ?>">Eliminar</a>
 				</td>
