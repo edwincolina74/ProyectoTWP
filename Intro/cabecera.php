@@ -12,7 +12,7 @@
 		<div><a href="servicios.php">Servicios</a></div>
 		<div><a href="atracciones.php">Atracciones locales</a></div>
 		<div><a href="contactoyubicacion.php">Contactanos</a></div> 
-		<div><a href="entrega4.php" target="contenido">ENTREGA 4</a></div> 
+		<div><a href="administrador.php" target="contenido">ADMINISTRADOR</a></div> 
 				<div><a href="index.php"><img src="imagenes/inicio/logohotel.png"></a> </div>
 
 	</header>
