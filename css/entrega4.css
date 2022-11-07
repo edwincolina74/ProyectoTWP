@@ -12,3 +12,8 @@
 	  text-align: center;
 	  text-decoration: underline dotted;
 }
+.fondoagregartipo{
+		  border: solid black;
+	  width: 500px;
+	  background: #333B43;
+}

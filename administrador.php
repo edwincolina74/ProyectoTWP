@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/administrador.css">
 	<link rel="stylesheet" href="css/style.css"> 
 	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
-		<link rel="stylesheet" type="text/css" href="css/entrega4.css">
+	<link rel="stylesheet" type="text/css" href="css/entrega4.css">
 
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
