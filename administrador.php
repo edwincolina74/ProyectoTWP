@@ -40,6 +40,10 @@
 		<a href="paginas/contactanos/agregarc.php">Agregar contáctanos</a><br>
 		<a href="paginas/contactanos/listarc.php">Listar contáctanos</a><br>
 
+		<h1 class="tamanoadm">Planificacion</h1>
+		<a href="paginas/planificacion/agregarc.php">Agregar Planificacion</a><br>
+		<a href="paginas/planificacion/listarc.php">Listar Planificacion</a><br>
+
 
 
 
