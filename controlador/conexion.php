@@ -4,42 +4,47 @@
 
 function conectar() {
     $conn= mysqli_connect ("localhost","root","","bd_hotel"); 
+  /*  
     if(!$conn){
         die("No puede conectarse ".mysqli_error());
     }
     else{
         echo "Conexión satisfactoria";
-    } 
+    } */
+    
     return $conn;  
 }
 
-//método para agreegar registros
-function agregarProducto($cod,$nom,$pre,$fot,$tip,$conn){
-    $sql="insert into producto values('$cod','$nom','$pre','$fot','$tip')";   
+//método para agregar registros
+function agregarHabitacion($cod,$est,$fechaO,$fechaD,$codusuario,$codtip,$conn){
+    $sql="insert into habitacion values('$cod','$est','$fechaO','$fechaD','$codusuario','$codtip')";   
     mysqli_query($conn, $sql) or die(mysqli_error($conn));
 }
 
- //método para eliminar registros
-function eliminarProducto($cod,$conn){
-    $sql="delete from producto where codpro='$cod'";    
+
+
+function eliminarHabitacion($cod,$conn){
+    $sql="delete from habitacion where codhab='$cod'";    
     mysqli_query($conn, $sql) or die(mysqli_error($conn));
 }
 
- //método para actualizar todos los campos de la tabla
-function actualizarTodoProducto($cod,$nom,$pre,$fot,$tip,$conn){
-    $sql="update producto set nompro='$nom', prepro='$pre', fotpro='$fot', codtip='$tip' where codpro='$cod'";   
+function actualizarTodoHabitacion($cod,$est,$fechaO,$fechaD,$codusuario,$codtip,$conn){
+    $sql="update habitacion set esthab='$est', fechaOhab='$fechaO', fechaDhab='$fechaD', codusuario='$codusuario',codtiphab='$codtip' where codhab='$cod'";   
     mysqli_query($conn, $sql) or die(mysqli_error($conn));
 }
 
- //método para actualizar registros sin foto
-function actualizarProducto($cod,$nom,$pre,$tip,$conn){
-    $sql="update producto set nompro='$nom', prepro='$pre', codtip='$tip' where codpro='$cod'"; 
+function actualizarHabitacion($cod,$est,$fechaO,$fechaD,$codusuario,$conn){
+    $sql="update habitacion set esthab='$est', fechaOhab='$fechaO', fechaDhab='$fechaD', codusuario='$codusuario' where codhab='$cod'"; 
     mysqli_query($conn, $sql) or die(mysqli_error($conn));
 }
 
- //método para buscar registro
-function buscarProducto($cod,$conn){
-    $sql="select nompro, prepro, fotpro, codtip from producto where codpro='$cod'";
+
+
+
+
+
+function buscarHabitacion($cod,$conn){
+    $sql="select esthab, fechaOhab, fechaDhab, codusuario, codtiphab from habitacion where codhab='$cod'";
     $res= mysqli_query($conn, $sql);
     $vec=array();
     if(mysqli_num_rows($res)>0){
@@ -47,10 +52,9 @@ function buscarProducto($cod,$conn){
     }
     return $vec; 
 }
-    
-//método para listar registros
-function listarProducto($conn){
-    $sql="select codpro, nompro, prepro, fotpro, codtip from producto"; 
+
+function listarHabitacion($conn){
+    $sql="select codhab, esthab, fechaOhab, fechaDhab, codusuario, codtiphab from habitacion"; 
     $res= mysqli_query($conn, $sql);
     $vec=array();
     while($f= mysqli_fetch_array($res))  
@@ -59,7 +63,7 @@ function listarProducto($conn){
 }
 
 //Tabla tipo *LISTO *
-//método para agreegar registros
+//método para agregar registros
 function agregarTipoHab($cod,$nom,$pre,$prep,$des,$can,$fot,$conn){
     $sql="insert into thabitacion values('$cod','$nom','$pre','$prep','$des','$can','$fot')";   
     mysqli_query($conn, $sql) or die(mysqli_error($conn));

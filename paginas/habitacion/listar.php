@@ -10,7 +10,7 @@
 	<?php 
 		require '../../controlador/conexion.php';
 		$conn =	conectar();
-		$lista = listarHabitacion($conn)
+		$lista = listarHabitacion($conn);
 	?>
 
 	<table>
