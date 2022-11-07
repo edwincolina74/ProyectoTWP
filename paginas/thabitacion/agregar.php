@@ -13,7 +13,7 @@
 	<?php 
 		require '../../controlador/conexion.php';
 		$conn =	conectar();
-		/*$lista = listarTipoHab($conn)*/
+
 	?>
 
 
