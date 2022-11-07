@@ -14,11 +14,13 @@
 
 	<table>
 		<tr>
+			<th>Código</th>
 			<th>Nombre</th>
 			<th>Apellido</th>
 			<th>Teléfono</th>
 			<th>Email</th>
 			<th>Comentario</th>
+			<th colspan="2">Acciones</th>
 		</tr>
 		
 		<?php 
@@ -30,7 +32,16 @@
 				<td><?=$value[2]?></td>
 				<td><?=$value[3]?></td>
 				<td><?=$value[4]?></td>
+				<td><?=$value[5]?></td>
+				<td>
+					<a href="../../llamadas/proceso_contactanos.php?accion=eliminar&cod=<?= $value[0] ?>">Eliminar</a>
+				</td>
+				<td>
+					<a href="editarc.php?cod=<?=$value[0]?>">Modificar</a>
+				</td>
+
 			</tr>
+
 		<?php 
 		}
 		?>

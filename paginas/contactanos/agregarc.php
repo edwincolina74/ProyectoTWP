@@ -15,7 +15,7 @@
 		<input type="text" name="email"><br>
 		<label>Comentario</label>
 		<input type="text" name="comentario"><br>
-		<input type="submit" name="" value="Aceptar">
+		<input type="submit" name="accion" value="Aceptar">
 	</form>
 
 </body>
