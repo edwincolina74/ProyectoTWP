@@ -29,8 +29,8 @@
 		<a href="paginas/producto/listar.php">Listar Producto</a><br><br>
 
 		<h1>Gestion de Contactanos</h1>
-		<a href="paginas/producto/agregar.php">Agregar Producto</a><br>
-		<a href="paginas/producto/listar.php">Listar Producto</a><br><br>
+		<a href="paginas/contactanos/agregarc.php">Agregar contáctanos</a><br>
+		<a href="paginas/contactanos/listarc.php">Listar contáctanos</a><br><br>
 
 		<h1>Gestion de Planificacion</h1>
 		<a href="paginas/producto/agregar.php">Agregar Producto</a><br>
