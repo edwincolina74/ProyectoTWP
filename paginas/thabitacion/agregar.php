@@ -5,8 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/entrega4.css">
+
 </head>
 <body>
+
 
 	<?php 
 		require '../../controlador/conexion.php';
@@ -38,6 +40,7 @@
 			<input type="submit" name="accion" value="Aceptar">
 
 		</form>
+
 
 
 

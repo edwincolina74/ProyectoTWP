@@ -36,13 +36,17 @@
 		<a href="paginas/habitacion/agregar.php">Agregar habitación</a><br>
 		<a href="paginas/habitacion/listar.php">Listar habitación</a><br>
 
-		<h1 class="tamanoadm">Libro de reclamaciones</h1>
-		<a href="paginas/producto/agregar.php">Agregar Producto</a><br>
-		<a href="paginas/producto/listar.php">Listar Producto</a><br>
-
 		<h1 class="tamanoadm">Contactanos</h1>
 		<a href="paginas/contactanos/agregarc.php">Agregar contáctanos</a><br>
 		<a href="paginas/contactanos/listarc.php">Listar contáctanos</a><br>
+
+
+
+
+<!--
+		<h1 class="tamanoadm">Libro de reclamaciones</h1>
+		<a href="paginas/producto/agregar.php">Agregar Producto</a><br>
+		<a href="paginas/producto/listar.php">Listar Producto</a><br>
 
 		<h1 class="tamanoadm">Planificacion</h1>
 		<a href="paginas/producto/agregar.php">Agregar Producto</a><br>
@@ -54,7 +58,9 @@
 
 		<h1 class="tamanoadm">Reservaciones</h1>
 		<a href="paginas/producto/agregar.php">Agregar Producto</a><br>
-		<a href="paginas/producto/listar.php">Listar Producto</a><br>
+		<a href="paginas/producto/listar.php">Listar Producto</a><br> 
+	-->
+	
 	</div>
 
 <br><br><br><br>

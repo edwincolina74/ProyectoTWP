@@ -4,9 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+
 </head>
 <body>
-     
+ 
+
     <?php 
 		require '../../controlador/conexion.php';
 		$conn =	conectar();
@@ -35,6 +37,8 @@
 			
 			<input type="submit" name="accion" value="Aceptar">
 		</form>
+
+
 
 </body>
 </html>
