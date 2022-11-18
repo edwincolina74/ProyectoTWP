@@ -3,7 +3,7 @@
 //Cambie bd_hotel
 
 function conectar() {
-    $conn= mysqli_connect ("localhost","root","","bd_hotel"); 
+    $conn= mysqli_connect ("localhost:3308","root","","bd_hotel"); 
   /*  
     if(!$conn){
         die("No puede conectarse ".mysqli_error());
