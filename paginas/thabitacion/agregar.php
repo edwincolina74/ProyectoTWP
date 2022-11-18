@@ -15,7 +15,7 @@
 		$conn =	conectar();
 
 	?>
-
+<!---->
 
 		<form action="../../llamadas/proceso_tipohab.php" method="post" enctype="multipart/form-data">
 <div >
