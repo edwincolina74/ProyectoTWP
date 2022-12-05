@@ -3,7 +3,7 @@
 //Cambie bd_hotel
 
 function conectar() {
-    $conn= mysqli_connect ("localhost:3308","root","","bd_hotel"); 
+    $conn= mysqli_connect ("localhost","root","","bd_hotel"); 
   /*  
     if(!$conn){
         die("No puede conectarse ".mysqli_error());
@@ -14,47 +14,6 @@ function conectar() {
     
     return $conn;  
 }
-
-//método para agregar planificacion
-function agregarPlanificacion($nom,$email,$cel,$inicio,$final,$com,$conn){
-    $sql="insert into planificacion values('$nom','$email','$cel','$inicio','$final','$com')";
-    mysqli_query($conn,$sql) or die(mysqli_error($conn));
-}
-
-//método para actualizar todos los campos de la tabla planificacion
-function actualizarPLanificacion($nom,$email,$inicio,$final,$com,$conn){
-    $sql="update planificacion set nombre='$nom', correo='$email', fechainicio='$inicio', fechafinal='$final', comentario='$com' where telefono='$cel'";   
-    mysqli_query($conn, $sql) or die(mysqli_error($conn));
-}
-
-function listarPlanificacion($conn){
-    $sql="select nombre, correo, telefono, fechainicio, fechafinal, comentario from planificacion"; 
-    $res= mysqli_query($conn, $sql);
-    $vec=array();
-    while($f= mysqli_fetch_array($res))  
-        $vec[]=$f;
-    return $vec;
-}
-
- //método para eliminar planificacion
- function eliminarPlanificacion($cel,$conn){
-    $sql="delete from planificacion where telefono='$cel'";    
-    mysqli_query($conn, $sql) or die(mysqli_error($conn));
-}
-
-//método para buscar registro *LISTO*
-function buscarPlanificacion($cel,$conn){
-    $sql="select nombre, correo, fechainicio, fechafinal, comentario from planificacion where telefono='$cel'";
-    $res= mysqli_query($conn, $sql);
-    $vec=array();
-    if(mysqli_num_rows($res)>0){
-        $vec= mysqli_fetch_array($res);
-    }
-    return $vec; 
-}
-
-
-
 
 //método para agregar registros
 function agregarHabitacion($cod,$est,$fechaO,$fechaD,$codusuario,$codtip,$conn){

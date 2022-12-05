@@ -45,7 +45,7 @@
 			</div>
 		</section>
 	</div>
-	<a href="planificacion.php"><input type="button" value="PLANIFICAR"></a>
+	<a href="../ProyectoTWP/paginas/planificacion/formulario.php"><input type="button" value="PLANIFICAR"></a>
 	<br><br>
 	<hr>
 	<div><h2 class="centrar2">Salas para Reuniones</h2></div>
