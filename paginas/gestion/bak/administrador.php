@@ -41,8 +41,8 @@
 		<a href="paginas/contactanos/listarc.php">Listar contáctanos</a><br>
 
 		<h1 class="tamanoadm">Planificacion</h1>
-		<a href="paginas/planificacion/formulario.php">Agregar Planificacion</a><br>
-		<a href="paginas/planificacion/listar.php">Listar Planificacion</a><br>
+		<a href="../../planificacion/formulario.php">Agregar Planificacion</a><br>
+		<a href="../../planificacion/listar.php">Listar Planificacion</a><br>
 
 
 
