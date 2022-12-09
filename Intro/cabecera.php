@@ -7,7 +7,7 @@
 
 		<div class="cabeceracolorletra"> <a href="habitaciones.php" >Habitaciones</a> </div>
 		<div class="cabeceracolorletra"><a href="ofertas.php">Paquetes y Ofertas</a> </div>
-		<div class="cabeceracolorletra"><a href="eventos.php">Eventos</a></div>	
+		<div class="cabeceracolorletra"><a href="../../ProyectoTWP/paginas/gestion/eventos.php">Eventos</a></div>	
 		<div class="cabeceracolorletra"><a href="bodas.php">Bodas</a> </div>
 		<div class="cabeceracolorletra"><a href="servicios.php">Servicios</a></div>
 		<div class="cabeceracolorletra"><a href="atracciones.php">Atracciones locales</a></div>
