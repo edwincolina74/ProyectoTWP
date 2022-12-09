@@ -28,7 +28,7 @@
 	<div class="cabeceracolorletra"><a href="servicios.php">Servicios</a></div>
 	<div class="cabeceracolorletra"><a href="atracciones.php">Atracciones locales</a></div>
 	<div class="cabeceracolorletra"><a href="contactoyubicacion.php">Contactanos</a></div> 
-	<div class="cabeceracolorletra"><a href="administrador.php" target="contenido">ADMINISTRADOR</a></div> 
+	<div class="cabeceracolorletra"><a href="paginas/gestion/bak/administrador.php" target="contenido">ADMINISTRADOR</a></div> 
 	<div><a href="index.php"><img src="imagenes/inicio/logohotel.png"></a> </div>
 
 	</header>
