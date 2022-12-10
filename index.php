@@ -21,7 +21,7 @@
 
 	<div class="cabeceracolorletra"><a href="index.php">HOTEL IMPERIAL</a> </div>
 
-	<div class="cabeceracolorletra"> <a href="habitaciones.php" >Habitaciones</a> </div>
+	<div class="cabeceracolorletra"> <a href="paginas/gestion/habitaciones.php" >Habitaciones</a> </div>
 	<div class="cabeceracolorletra"><a href="ofertas.php">Paquetes y Ofertas</a> </div>
 	<div class="cabeceracolorletra"><a href="paginas/gestion/eventos.php">Eventos</a></div>	
 	<div class="cabeceracolorletra"><a href="bodas.php">Bodas</a> </div>
