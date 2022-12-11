@@ -4,19 +4,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/bodas1.css">
-	
-	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-	
+
+		<link rel="stylesheet" type="text/css" href="../../css/bodas1.css">
+		<link rel="stylesheet" type="text/css" href="../../css/estilos1.css">
+		<link rel="stylesheet" href="../../css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
 
 <?php
-	include "Intro/cabecera.php"
+	include "../../Intro/cabecera.php"
 ?>
 	<br>
 	<br>
@@ -24,7 +24,7 @@
 	<br>
 	
 	<section class="imagbd1" >
-		<img src="imagenes/bodas/bodas.jpg">
+		<img src="../../imagenes/bodas/bodas.jpg">
 	</section>
 	<hr>
 	
@@ -70,15 +70,15 @@
 	<div class="galfotos">
 
 		<div class="galeria1">
-			<img src="imagenes/bodas/g1.jpg" >
-			<img src="imagenes/bodas/g2.jpg" >
-			<img src="imagenes/bodas/g3.jpg" >
+			<img src="../../imagenes/bodas/g1.jpg" >
+			<img src="../../imagenes/bodas/g2.jpg" >
+			<img src="../../imagenes/bodas/g3.jpg" >
 		</div>
 		
 		<div class="galeria1">
-			<img src="imagenes/bodas/g4.jpg" >
-			<img src="imagenes/bodas/g5.jpg" >
-			<img src="imagenes/bodas/g6.jpg" >
+			<img src="../../imagenes/bodas/g4.jpg" >
+			<img src="../../imagenes/bodas/g5.jpg" >
+			<img src="../../imagenes/bodas/g6.jpg" >
 		</div>
 	
 	</div>
@@ -87,7 +87,7 @@
 <br>
 
 <?php
-	include "Intro/piepagina.php"
+	include "../../Intro/piepagina.php"
 ?>
 
 </body>
