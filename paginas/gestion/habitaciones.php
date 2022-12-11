@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 
-		<link rel="stylesheet" type="text/css" href="css/estilos1.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="../../css/estilos1.css">
+		<link rel="stylesheet" href="../../css/style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 <body>
 
 	<?php
-		include "Intro/cabecera.php"
+		include "../../Intro/cabecera.php"
 	?>
 
 	<br>
@@ -35,7 +35,7 @@
 		<hr>
 		<div class="habitaciones">
 			<div class="foto-habitaciones item-habitaciones">
-				<img src="imagenes/habitaciones/superior.jpg">
+				<img src="../../imagenes/habitaciones/superior.jpg">
 				<h3> HABITACION SUPERIOR</h3>
 				<p>Las habitaciones están ubicadas en los pisos del 2 al 10. Cuentan con una cama King o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, carta de almohadas, máquina de café ILLY, despertador con puerto para iPod, caja de seguridad digital, dos líneas telefónicas con correo de voz y minibar.Las habitaciones miden 33 m² (108 ft). Tiene acceso a nuestro exclusivo Executive Lounge, ubicado en el piso 12. Es un espacio donde se puede disfrutar de un delicioso desayuno, snacks, bebidas no alcohólicas ilimitadas y asistencia personalizada. </p>
 						<div class="resev">
@@ -43,7 +43,7 @@
 					</div>
 			</div>
 			<div class="foto-habitaciones item-habitaciones">	
-				<img src="imagenes/habitaciones/plus.jpg">
+				<img src="../../imagenes/habitaciones/plus.jpg">
 				<h3> HABITACION PLUS</h3>
 				<p>Tiene acceso a nuestro exclusivo Executive Lounge, ubicado en el piso 12. Es un espacio donde se puede disfrutar de un delicioso desayuno, snacks, bebidas no alcohólicas ilimitadas y asistencia personalizada. También en el mismo piso se encuentra el Directorio, donde podrá realizar importantes reuniones de trabajo.carta de almohadas, máquina de café ILLY,disfrutar de un delicioso desayuno, snacks, bebidas no alcohólicas ilimitadas y asistencia personalizada, donde podrá realizar importantes reuniones de trabajo. Reservelo ahora mismo </p>
 					<div class="resev">
@@ -52,7 +52,7 @@
 			</div>
 
 			<div class="foto-habitaciones item-habitaciones">
-				<img src="imagenes/habitaciones/lujo.jpg">
+				<img src="../../imagenes/habitaciones/lujo.jpg">
 				<h3> HABITACION EJECUTIVA</h3>
 				<p>Se encuentra desde los pisos 12 al 14 en una ubicación privilegiada para brindarle una vista espectacular de una de las áreas verdes más grandes de la ciudad, el Lima Golf Club. Las habitaciones están equipadas con una cama King o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, dos líneas telefónicas con buzón de voz, reloj despertador, caja fuerte en la habitación, cafetera, plancha y tabla de planchar, minibar y hermosos baños de mármol blanco que incluyen bañeras de hidromasaje.Reservelo ahora mismo</p>
 					<div class="resev">
@@ -66,7 +66,7 @@
 
 		<div class="habitaciones">
 			<div class="foto-habitaciones item-habitaciones">
-				<img src="imagenes/habitaciones/otro1.jpg">   
+				<img src="../../imagenes/habitaciones/otro1.jpg">   
 				<h3 > HABITACION VIP</h3>
 				<p>Las habitaciones están ubicadas en los pisos del 8 al 11. Cuentan con una cama King o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, carta de almohadas, máquina de café ILLY, despertador con puerto para iPod, caja de seguridad digital, dos líneas telefónicas con correo de voz y minibar. Las habitaciones miden 33 m² (108 ft)carta de almohadas, máquina de café MAGIC ycarta de almohadas, máquina de café ILLY, despertador con puerto para IPAD. reservelo ahora mismo. </p>
 					<div class="resev">
@@ -74,7 +74,7 @@
 					</div>
 			</div>
 			<div class="foto-habitaciones item-habitaciones">
-				<img src="imagenes/habitaciones/otro2.jpg">
+				<img src="../../imagenes/habitaciones/otro2.jpg">
 				 <h3> HABITACION PLUS II</h3>
 					<p>Se encuentra desde los pisos 12 al 14 en una ubicación privilegiada para brindarle una vista espectacular de una de las áreas verdes más grandes de la ciudad. Las habitaciones están equipadas con una cama King o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, dos líneas telefónicas con buzón de voz, reloj despertador, caja fuerte en la habitación, cafetera, plancha y tabla de planchar, minibar y hermosos baños de mármol blanco que incluyen bañeras de hidromasaje.</p>
 					<div class="resev">
@@ -82,7 +82,7 @@
 					</div>
 			</div>
 			<div  class="foto-habitaciones item-habitaciones">	
-				<img src="imagenes/habitaciones/otro3.jpg">
+				<img src="../../imagenes/habitaciones/otro3.jpg">
 					<h3> HABITACION EJECUTIVA II</h3>
 						<p>Las habitaciones están ubicadas en los pisos del 8 al 11. Cuentan con una cama King o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, carta de almohadas, máquina de café ILLY, despertador con puerto para iPod, caja de seguridad digital, dos líneas telefónicas con correo de voz y minibar.Las habitaciones miden 40 m².Tiene acceso a nuestro exclusivo Executive Lounge, ubicado en el piso 12. Es un espacio donde se puede disfrutar de un delicioso desayuno, snacks./p>
 					<div class="resev">
@@ -130,7 +130,7 @@
 
 
 <?php
-	include "Intro/piepagina.php"
+	include "../../Intro/piepagina.php"
 ?>
 
 
