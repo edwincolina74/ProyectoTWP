@@ -4,11 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/contactoyubicacion.css">
-	<script type="text/javascript" src="js/contactoyubicacion1.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../css/contactoyubicacion.css">
+	<script type="text/javascript" src="../../js/contactoyubicacion1.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/estilos1.css">
+	<link rel="stylesheet" href="../../css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
 <body>
 
 <?php
-	include "Intro/cabecera.php"
+	include "../../Intro/cabecera.php"
 ?>
 
 <br>
@@ -64,7 +64,7 @@
 	<div class="botonenvio">
 		<div class="botonenvio1">
 		<button type="button" onclick="validar();" respuesta name="enviar">
-			<img src="imagenes/contactanos/enviar1.png" alt= "enviar">
+			<img src="../../imagenes/contactanos/enviar1.png" alt= "enviar">
 		</button>
 		</div>		
 	</div>
@@ -92,7 +92,7 @@
 
 
 <?php
-	include "Intro/piepagina.php"
+	include "../../Intro/piepagina.php"
 ?>	
 
 
