@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 
-	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/estilos1.css">
+	<link rel="stylesheet" href="../../css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 <body>
 
 <?php
-	include "Intro/cabecera.php"
+	include "../../Intro/cabecera.php"
 ?>
 
 	<br><br>
@@ -39,7 +39,7 @@
 
 
 <?php
-	include "Intro/piepagina.php"
+	include "../../Intro/piepagina.php"
 ?>
 
 

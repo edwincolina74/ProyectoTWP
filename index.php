@@ -32,7 +32,7 @@
 
 	</header>
 	<!-- CABECERA! -->
-	
+
 
 	<img id="imagen-portada" src="imagenes/inicio/portada10.jpg">
 	<h1 class="centrado titulo-color">BIENVENIDO AL HOTEL IMPERIAL Y CENTRO DE CONVENCIONES</h1>	
@@ -62,7 +62,7 @@
 				<p>Las habitaciones están situadas entre los pisos 2 y 7 y cuentan con una cama tamaño king o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, dos líneas de teléfono con buzón de voz, reloj despertador, caja fuerte, cafetera y un minibar. </p>
 
 				<div class="resev">
-					<a  href="reservarahora.php" target="blank">RESERVAR AHORA</a>
+					<a  href="paginas/gestion/reservarahora.php" target="blank">RESERVAR AHORA</a>
 				</div>
 			</div>
 
@@ -70,7 +70,7 @@
 				<img src="imagenes/inicio/plus.jpg">
 				<p>Las habitaciones están ubicadas en los pisos del 8 al 11. Cuentan con una cama King o dos camas dobles, internet WiFi, Smart TV curvo de 49" con señal digital, carta de almohadas, máquina de café ILLY, despertador con puerto para iPod, caja de seguridad digital.</p>
 				<div class="resev">
-					<a  href="reservarahora.php" target="blank">RESERVAR AHORA</a>
+					<a  href="paginas/gestion/reservarahora.php" target="blank">RESERVAR AHORA</a>
 				</div>
 			</div>
 
@@ -78,7 +78,7 @@
 				<img src="imagenes/inicio/lujo.jpg">
 				<p>Se encuentra desde los pisos 12 al 14 en una ubicación privilegiada para brindarle una vista espectacular de una de las áreas verdes más grandes de la ciudad, carta de almohadas, máquina de café ILLY, cuentan con una cama tamaño king o dos camas dobles</p>
 				<div class="resev">
-					<a  href="reservarahora.php" target="blank">RESERVAR AHORA</a>
+					<a  href="paginas/gestion/reservarahora.php" target="blank">RESERVAR AHORA</a>
 				</div>
 			</div>
 		</div>
@@ -103,10 +103,54 @@
 		<br>
 
 
-<?php
-	include "Intro/piepagina.php"
-?>
+<!--PIE DE PAGINA-->
 
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col">
+				<h4>HOTEL IMPERIAL</h4>
+				<ul>
+					<li> <p>Calle los claveles 155, Lima, Perú </p>	</li>
+					<li><p>(511) 285-3015</p></li>
+					<li> <p>consulta@hotelimperial.com.pe</p></li>
+
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>INFORMACION</h4>
+				<ul>
+					<li><a href="contactoyubicacion.php">Contacto y ubicación</a></li>
+					<li><a href="libro.php">libro de reclamaciones</a></li>
+
+				</ul>    
+			</div>
+			<div class="footer-col">
+				<h4>REGISTRATE</h4>
+				<ul>
+					<li><a href="paginas/gestion/miembrospreferentes.php">miembros preferentes</a></li>
+					
+						<form class="pie-subscribete">
+							<label>SUBSCRIBETE</label>
+							<input type="email" name="nombre" placeholder="Ingresar correo electrónico">
+							<input type="submit" name="aceptar" value="REGISTRATE">
+						</form>
+				</ul> 
+			</div>
+			<div class="footer-col">
+				<h4>SIGUENOS</h4>
+				<div class="social-links iconos-tamano">
+
+				<a href="https://web.facebook.com/Hoteles.com/about/?ref=page_internal&_rdc=1&_rdr"> <img src="imagenes/inicio/facebook.png"></a>
+				<a href="https://twitter.com/riuhoteles" ><img src="imagenes/inicio/twitter.png"></a>
+					<a href="https://www.instagram.com/hotelsdotcom/"><img src="imagenes/inicio/instagram.png"></a>
+					<a href="https://www.youtube.com/channel/UCrpymEUtWUYzLoK-fGG8uXA"><img src="imagenes/inicio/youtube.png"></a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 
 </body>
 </html>

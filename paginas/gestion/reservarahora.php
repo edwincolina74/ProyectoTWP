@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="css/estilos1.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/estilos1.css">
+    <link rel="stylesheet" href="../../css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reserv.css">
+    <link rel="stylesheet" href="../../css/reserv.css">
     <script type="text/javascript" src="js/reservas.js"></script>
 </head>
 <body>
 
 <?php
-    include "Intro/cabecera.php"
+    include "../../Intro/cabecera.php"
 ?>
 
 <br><br><br>
@@ -74,7 +74,7 @@
 <br><br><br>
 
 <<?php
-    include "Intro/piepagina.php"
+    include "../../Intro/piepagina.php"
 ?>
 
           

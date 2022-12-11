@@ -36,10 +36,10 @@
 				<h4>SIGUENOS</h4>
 				<div class="social-links iconos-tamano">
 
-				<a href="https://web.facebook.com/Hoteles.com/about/?ref=page_internal&_rdc=1&_rdr"> <img src="imagenes/inicio/facebook.png"></a>
-				<a href="https://twitter.com/riuhoteles" ><img src="imagenes/inicio/twitter.png"></a>
-					<a href="https://www.instagram.com/hotelsdotcom/"><img src="imagenes/inicio/instagram.png"></a>
-					<a href="https://www.youtube.com/channel/UCrpymEUtWUYzLoK-fGG8uXA"><img src="imagenes/inicio/youtube.png"></a>
+				<a href="https://web.facebook.com/Hoteles.com/about/?ref=page_internal&_rdc=1&_rdr"> <img src="../../imagenes/inicio/facebook.png"></a>
+				<a href="https://twitter.com/riuhoteles" ><img src="../../imagenes/inicio/twitter.png"></a>
+					<a href="https://www.instagram.com/hotelsdotcom/"><img src="../../imagenes/inicio/instagram.png"></a>
+					<a href="https://www.youtube.com/channel/UCrpymEUtWUYzLoK-fGG8uXA"><img src="../../imagenes/inicio/youtube.png"></a>
 
 				</div>
 			</div>
