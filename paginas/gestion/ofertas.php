@@ -2,18 +2,18 @@
 <html>
 <head>
 	<title>Ofertas</title>
-	<link rel="stylesheet" type="text/css" href="css/ofertas.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/ofertas.css">
+	<link rel="stylesheet" type="text/css" href="../../css/estilos1.css">
+	<link rel="stylesheet" href="../../css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-	<script type="text/javascript" src="js/ofertas.js"></script>
+	<script type="text/javascript" src="../../js/ofertas.js"></script>
 </head>
 <body>
 	<!-- CABECERA -->
 	<?php
-	include "Intro/cabecera.php"
+	include "../../Intro/cabecera.php"
 ?>
 
 	<!-- FIN CABECERA    -->
@@ -41,13 +41,13 @@
 
 		<div class="fila">
 			<div class="celda" id="ima">
-				<img class="espe" src="imagenes/ofertas/especial.gif">
+				<img class="espe" src="../../imagenes/ofertas/especial.gif">
 			</div>
 			<div class="celda" id="ima">
-				<img class="espe" src="imagenes/ofertas/verano.jpg">
+				<img class="espe" src="../../imagenes/ofertas/verano.jpg">
 			</div>
 			<div class="celda" id="ima">
-				<img class="espe" src="imagenes/ofertas/iprefer.gif">
+				<img class="espe" src="../../imagenes/ofertas/iprefer.gif">
 			</div>
 		</div>
 
@@ -91,13 +91,13 @@
 
 		<div class="fila">
 			<div class="celda"  id="ima">
-				<img class="espe" src="imagenes/ofertas/relajante.jpg">
+				<img class="espe" src="../../imagenes/ofertas/relajante.jpg">
 			</div>
 			<div class="celda"  id="ima">
-				<img class="espe" src="imagenes/ofertas/romantico.gif">
+				<img class="espe" src="../../imagenes/ofertas/romantico.gif">
 			</div>
 			<div class="celda"  id="ima">
-				<img class="espe" src="imagenes/ofertas/aventura.jpeg">
+				<img class="espe" src="../../imagenes/ofertas/aventura.jpeg">
 			</div>
 		</div>
 
@@ -141,13 +141,13 @@
 
 		<div class="fila">
 			<div class="celda" id="ima">
-				<img class="espe" src="imagenes/ofertas/estadia.gif">
+				<img class="espe" src="../../imagenes/ofertas/estadia.gif">
 			</div>
 			<div class="celda" id="ima">
-				<img class="espe" src="imagenes/ofertas/family.jpg">
+				<img class="espe" src="../../imagenes/ofertas/family.jpg">
 			</div>
 			<div class="celda" id="ima">
-				<img class="espe" src="imagenes/ofertas/anticipada.gif">
+				<img class="espe" src="../../imagenes/ofertas/anticipada.gif">
 			</div>
 		</div>
 
@@ -182,7 +182,7 @@
 	<!-- PIE DE PAGINA -->
 
 	<?php
-	include "Intro/piepagina.php"
+	include "../../Intro/piepagina.php"
 	?>
 					<!-- FIN: PIE DE PAGINA -->
 
