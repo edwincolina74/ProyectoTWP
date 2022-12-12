@@ -3,10 +3,10 @@
 
 <head>
 	<title>Libro de Reclamaciones</title>
-	<link rel="stylesheet" type="text/css" href="css/reclamo.css">
+	<link rel="stylesheet" type="text/css" href="../../css/reclamo.css">
 	<script type="text/javascript" src="js/reclamos.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/estilos1.css">
+	<link rel="stylesheet" href="../../css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 <body>
 	<!-- CABECERA --> 
 	<?php
-	include "Intro/cabecera.php"
+	include "../../Intro/cabecera.php"
 	?>
 	<!-- FIN CABECERA    -->
 	<!-- FIN CABECERA    -->
@@ -219,7 +219,7 @@
 	</div>
 	<!-- PIE DE PAGINA -->
 	<?php
-	include "Intro/piepagina.php"
+	include "../../Intro/piepagina.php"
 	?>
 
 	<!-- FIN: PIE DE PAGINA -->

@@ -16,7 +16,7 @@
 				<h4>INFORMACION</h4>
 				<ul>
 					<li><a href="contactoyubicacion.php">Contacto y ubicación</a></li>
-					<li><a href="libro.php">libro de reclamaciones</a></li>
+					<li><a href="paginas/gestion/libro.php">libro de reclamaciones</a></li>
 
 				</ul>    
 			</div>
