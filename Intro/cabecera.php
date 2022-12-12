@@ -13,7 +13,7 @@
 		<div class="cabeceracolorletra"><a href="../../paginas/gestion/servicios.php">Servicios</a></div>
 		<div class="cabeceracolorletra"><a href="../../paginas/gestion/atracciones.php">Atracciones locales</a></div>
 		<div class="cabeceracolorletra"><a href="../../paginas/gestion/contactoyubicacion.php">Contáctanos</a></div>
-		<div class="cabeceracolorletra"><a href="../../paginas/gestion/administrador.php" target="contenido">LOGIN</a></div> 
+		<div class="cabeceracolorletra"><a href="../../paginas/gestion/logueo.php" target="contenido">LOGIN</a></div> 
 		<div><a href="../../index.php"><img src="../../imagenes/inicio/logohotel.png"></a> </div>
 
 	</header>
