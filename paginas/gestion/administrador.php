@@ -26,8 +26,12 @@
 
 	<div class="principal letrasadm ">
 		<h1 style="color: #9F6B3D;">MENU DE GESTION</h1>
-		<h1 class="tamanoadm">Tipo de Habitaciones</h1>
 
+		<h1 class="tamanoadm">Libro de Reclamaciones</h1>		
+		<a href="../datosreclamos/listar.php">Mostrar personas que reclamaron</a><br><br>
+		<a href="../reclamo/listar.php">Mostrar detalles de reclamos</a><br><br>
+
+		<h1 class="tamanoadm">Tipo de Habitaciones</h1>
 			<a href="../thabitacion/agregar.php">Agregar tipo de habitación</a><br>
 			<a href="../thabitacion/listar.php">Listar Tipos de habitación</a><br>
 
@@ -35,6 +39,7 @@
 		<h1 class="tamanoadm">Habitaciones</h1>
 		<a href="../habitacion/agregar.php">Agregar habitación</a><br>
 		<a href="../habitacion/listar.php">Listar habitación</a><br>
+
 
 		<h1 class="tamanoadm">Contactanos</h1>
 		<a href="../contactanos/agregarc.php">Agregar contáctanos</a><br>

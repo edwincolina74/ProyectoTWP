@@ -3,8 +3,17 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="../../css/tablasbd.css">
+		    <link rel="stylesheet" type="text/css" href="../../css/estilos1.css">
+    <link rel="stylesheet" href="../../css/style.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+
+		<?php
+	include "../../Intro/cabecera.php"
+	?>
 	<h2>Listar Reclamos</h2>
 
 <div class="contenedor-novedad">
@@ -37,5 +46,9 @@
 				?>
 		</table>		
 </div>
+	<?php
+	include "../../Intro/piepagina.php"
+	?>
+
 </body>
 </html>
