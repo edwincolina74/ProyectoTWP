@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="../../css/administrador.css">
-	<link rel="stylesheet" href="../../css/style.css"> 
-	<link rel="stylesheet" type="text/css" href="../../css/estilos1.css">
-	<link rel="stylesheet" type="text/css" href="../../css/entrega4.css">
+	<link rel="stylesheet" type="text/css" href="css/administrador.css">
+	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
+	<link rel="stylesheet" type="text/css" href="css/entrega4.css">
 
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,33 +21,28 @@
 <body>
 
 <?php
-	include "../../Intro/cabecera.php"
+	include "Intro/cabecera.php"
 ?>
 
 	<div class="principal letrasadm ">
 		<h1 style="color: #9F6B3D;">MENU DE GESTION</h1>
-
-		<h1 class="tamanoadm">Libro de Reclamaciones</h1>		
-		<a href="../datosreclamos/listar.php">Mostrar personas que reclamaron</a><br><br>
-		<a href="../reclamo/listar.php">Mostrar detalles de reclamos</a><br><br>
-
 		<h1 class="tamanoadm">Tipo de Habitaciones</h1>
-			<a href="../thabitacion/agregar.php">Agregar tipo de habitación</a><br>
-			<a href="../thabitacion/listar.php">Listar Tipos de habitación</a><br>
+
+			<a href="paginas/thabitacion/agregar.php">Agregar tipo de habitación</a><br>
+			<a href="paginas/thabitacion/listar.php">Listar Tipos de habitación</a><br>
 
 
 		<h1 class="tamanoadm">Habitaciones</h1>
-		<a href="../habitacion/agregar.php">Agregar habitación</a><br>
-		<a href="../habitacion/listar.php">Listar habitación</a><br>
-
+		<a href="paginas/habitacion/agregar.php">Agregar habitación</a><br>
+		<a href="paginas/habitacion/listar.php">Listar habitación</a><br>
 
 		<h1 class="tamanoadm">Contactanos</h1>
-		<a href="../contactanos/agregarc.php">Agregar contáctanos</a><br>
-		<a href="../contactanos/listarc.php">Listar contáctanos</a><br>
+		<a href="paginas/contactanos/agregarc.php">Agregar contáctanos</a><br>
+		<a href="paginas/contactanos/listarc.php">Listar contáctanos</a><br>
 
 		<h1 class="tamanoadm">Planificacion</h1>
-		<a href="../planificacion/formulario.php">Agregar Planificacion</a><br>
-		<a href="../planificacion/listar.php">Listar Planificacion</a><br>
+		<a href="../../planificacion/formulario.php">Agregar Planificacion</a><br>
+		<a href="../../planificacion/listar.php">Listar Planificacion</a><br>
 
 
 
@@ -75,7 +70,7 @@
 <br><br><br><br>
 
 <?php
-	include "../../Intro/piepagina.php"
+	include "Intro/piepagina.php"
 ?>
 
 </body>
