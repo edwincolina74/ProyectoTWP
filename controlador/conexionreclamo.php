@@ -23,9 +23,9 @@ function agregarDatos($name,$tdoc,$dist,$ndoc,$dir,$telf,$correo,$conn){
     mysqli_query($conn, $sql) or die(mysqli_error($conn));
     
 }
-function agregarReclamo($codre,$npersonas,$tipb,$tip,$monto,$msg,$conn){
+function agregarReclamo($codre,$npersonas,$tipbien,$tipo,$monto,$msg,$conn){
     
-    $sql="insert into reclamo values('$codre','$npersonas','$tipb','$tip','$monto','$msg' )";   
+    $sql="insert into reclamo values('$codre','$npersonas','$tipbien','$tipo','$monto','$msg' )";   
     mysqli_query($conn, $sql) or die(mysqli_error($conn));
     
 }
