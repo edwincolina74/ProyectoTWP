@@ -89,7 +89,7 @@ function actualizarTodoTipoHab($cod,$nom,$pre,$prep,$des,$can,$fot,$conn){
 
 
 
-//método para buscar registro *LISTO*
+/*método para buscar registro *LISTO*
 function buscarTipoHab($cod,$conn){
     $sql="select nombretiphab,preciotiphab,preciopreftiphab,destiphab,canlibretiphab from thabitacion where codtiphab='$cod'";
     $res= mysqli_query($conn, $sql);
@@ -98,7 +98,19 @@ function buscarTipoHab($cod,$conn){
         $vec= mysqli_fetch_array($res);
     }
     return $vec; 
+}*/
+
+//DUPLI
+function buscarTipoHab($cod,$conn){
+    $sql="select codtiphab, nombretiphab,preciotiphab,preciopreftiphab,destiphab,canlibretiphab,fottiphab  from thabitacion where codtiphab='$cod'";
+    $res= mysqli_query($conn, $sql);
+    $vec=array();
+    while($f= mysqli_fetch_array($res))  
+        $vec[]=$f;
+    return $vec;
 }
+
+
 
 //*LISTO *
 //método para listar registros 

@@ -28,12 +28,14 @@
 <br>
     <div > 
         
-        <form  class="contenedorHIS">
+        <form  class="contenedorHIS" method="post">
             <div>  
                     <h1>RESERVAS</h1>
                     <label>SELECCIONE TIPO DE HABITACION </label>
 
-                <select name="tHabitacion">
+                <select name="tHabitacion" onchange="this.form.submit()">
+                        <option>-- Seleccionar-- </option>  
+                    <option value="todos">-- Todos--</option>
                     <?php
                         foreach (listarTipoHab($conn) as $key => $value) {
                     ?>
@@ -43,67 +45,48 @@
                     ?>
                 </select>
 
-                <?php
-                    echo $value[0];
-                    echo $thabitacion.value;
-
-                ?>
                     <br><br><br>
-                    <input type="button" name="" value="Buscar">
+   <!--                 <input type="submit" name="enviar" value="Buscar"> -->
             </div>
         </form>
- 
+
+
 </div>
-<br><br><br>
 
+                 <?php
 
-    <table>
-        <tr>
-           <!-- <th>Código de Habitación</th> -->
-            <!-- <th>Código de Usuario</th> -->
-            <th>Tipo de Habitación</th>
-            <th>Precio de Tipo de Habitación</th>
-            <th>Cantidad de Habitaciones disponibles</th>
-            <th>Descripcion de la Habitacion</th>
-            <th>Foto de Tipo de Habitación</th>
-            <th colspan="2">Acciones</th>
-            
-            
-
-        </tr>
-
+                    $cthab = "todos";
+                    if(isset($_REQUEST['tHabitacion'])){
+                        $cthab= $_REQUEST['tHabitacion'];
+ 
+                    }
+                    if ($cthab=="todos") 
+                        $vector = listarTipoHab($conn);
+                    else
+                        $vector = buscarTipoHab($cthab,$conn);
+                        
+                ?>
 
         <?php
-            foreach (listarTipoHab($conn) as $key => $value) {
+            foreach ($vector as $key => $value) {
         ?>
-            <tr>
-                <!-- <td><?= $value[0]?></td>-->
-               <!--              <td><?= $value[3]?></td> -->
-               <!-- <td><?= $value[6]?></td> -->
-
-                <td><?= $value[1]?></td>
-                <td><?= $value[2]?></td>
-                <td><?= $value[5]?></td>
-                <td><?= $value[4]?></td>
-
-                <td><img src="../<?= $value[6]?>" width="100" height="100"></td>
-                 
-                
-                <td>
-                    <a href="../../llamadas/proceso_habitacion.php?accion=eliminar&codigo=<?= $value[0] ?>">ELEGIR</a>
-                </td>
-         <!--       <td>
-                    <a href="editar.php?codigo=<?=$value[0]?>">Modificar</a>
-                </td>
-        -->
-                
-            </tr>
-
+            <div class="contenedor-thab">
+                <p class="negrita">Tipo de Habitacion:</p>
+                <p><?= $value[1]?></p> 
+                <p class="negrita">Precio de Tipo de Habitacion:</p>
+                <p><?= $value[2]?></p>
+                <p class="negrita">Descripcion de la Habitacion:</p>
+                <p><?= $value[4]?></p>
+                <p><img src="../<?= $value[6]?>" width="100" height="100"></p>
+ 
+                <p>Acciones: <a href="">ELEGIR</a>
+                </p>
+            </div>
 
         <?php 
         }
         ?>
-    </table>
+
 
 <?php
     include "../../Intro/piepagina.php"
@@ -112,40 +95,5 @@
           
 </body>
 </html>
-
-
-
-              <!--  <label>Ingrese número de niños  : </label>
-                <input type="text" name="nNinos" placeholder="0">-->
-<!--   
-        <br>
-        <br>
-
-            <h1 class="colorM">Su estadía</h1>
-
-    <form name="formulario2">
-            <div class="contenedorEstadia">
-                    <div>
-                        <p class="negrita"> Check-in:</p>
-                        <p> Despues de 15:00 </p>
-                        <textarea name="fechaI" rows="2" ></textarea>
-                      
-                     </div>
-                    <div>
-                        <p class="negrita"> Check-out: </p>
-                        <p> Antes de 13:00 </p>
-                        <textarea name="fechaS" rows="2" ></textarea>
-
-                    </div>
-
-            </div>
-  
-                    <hr>
-                 
-                    <p class="negrita colorM"> COSTO</p>   
-                    <center><textarea name="costo" rows="5" ></textarea> </center>
-    </form>
--->
-
 
 

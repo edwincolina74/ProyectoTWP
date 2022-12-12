@@ -12,8 +12,6 @@ body{
     padding: 10px 100px;
     color: #a47449;
     margin-left: 650px;
-
-  
 }
 .contenedorEstadia {
     display: flex;
@@ -37,5 +35,25 @@ body{
 }
 
 .centrar{
+    text-align: center;
+}
+
+.items-thab{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.contenedor-thab {
+    display: flex;
+    /*flex-wrap: wrap;
+    justify-content: space-around*/
+    background-color:rgbl(226, 224, 224, 200);
+    border: solid black;
+    width: 30%;
+    padding: 10px 100px;
+    color: #513923;
+    margin-left: 550px;
+    flex-direction: column;
     text-align: center;
 }

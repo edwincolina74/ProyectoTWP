@@ -4,12 +4,13 @@
 <head>
 	<title>Libro de Reclamaciones</title>
 	<link rel="stylesheet" type="text/css" href="../../css/reclamo.css">
-	<script type="text/javascript" src="js/reclamos.js"></script>
+	<script type="text/javascript" src="../../js/reclamos.js"></script>
 	<link rel="stylesheet" type="text/css" href="../../css/estilos1.css">
-	<link rel="stylesheet" href="../../css/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../../css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
 	<!-- CABECERA --> 
@@ -20,7 +21,7 @@
 	<!-- FIN CABECERA    -->
 	<h1 class="titulo">LIBRO DE RECLAMACIONES</h1>
 	<div class="general">
-		<form id="formula">
+		<form id="formula" action="../../llamadas/proceso_reclamo.php" method="post">
 			<p class="center">Conforme a lo establecido en el código de la Protección y Defensa del consumidor este
 			establecimiento cuenta con un Libro de Reclamaciones a tu disposición.</p>
 			<p class="center">Razón Social: HOTEL IMPERIAL</p>
@@ -142,7 +143,7 @@
 							<div class="celda">
 								<p>
 									<label>Tipo</label>
-									<select name="tipo" id="tipoA" name="tipoA">
+									<select name="tipo" id="tipoA" name="tipA">
 										<option checked>Seleccione</option>
 										<option>Reclamo</option>
 										<option>Queja</option>
