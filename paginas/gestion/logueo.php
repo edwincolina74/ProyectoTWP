@@ -21,13 +21,19 @@
 	<br>
 	<br>
 	<br>
-		<form action="../../llamadas/proceso_logueo.php" method="post">
+	<br>
+	<br>
+	<br>
+		<form id = "p1" action="../../llamadas/proceso_logueo.php" method="post">
 			<label>Usuario</label>
 			<input type="text" name="usuario"><br>
 			<label>Contraseña</label>
 			<input type="contraseña" name="cont"><br>
 			<input type="submit" name="aceptar" value="Aceptar">
 		</form>
+	<br>
+	<br>
+	<br>
 	<br>
 	<br>
 	<br>
