@@ -1,0 +1,30 @@
+table{
+	border-collapse: collapse;
+	width:500px;
+	background-color: black;
+}
+table td,th {
+	padding: 20px;
+	
+}
+.tabehead{
+	background-color: skyblue;
+	border-bottom: solid 5px black;
+	color:black;
+}
+table tr:hover {
+	background:white;
+}
+tr:nth-child(even){
+	background-color: #ddd;
+}
+.contenedor-novedad {
+	display: flex;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	justify-content: space-evenly;
+	background: white;
+	border-radius: 10px;
+	text-align: center;
+}
