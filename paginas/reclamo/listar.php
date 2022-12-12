@@ -2,11 +2,14 @@
 <html>
 <head>
 	<title></title>
+	    <link rel="stylesheet" type="text/css" href="../../css/estilos1.css">
+    <link rel="stylesheet" href="../../css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../../css/tablasbd.css">
 </head>
 <body>
 	<?php
-	include "../../Intro/cabecera.php"
+	include "../../Intro/cabecera.php";
 	require('../../controlador/conexionreclamo.php');
 		$conn = conectar();
 	?>
