@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
 	<title></title>
 </head>
 <body>
 	<form action="../../llamadas/proceso_contactanos.php" method="post">
+		<label>Código</label>
+		<input type="int" name="cod"><br>
 		<label>Nombre</label>
 		<input type="text" name="nomb"><br>
 		<label>Apellido</label>
