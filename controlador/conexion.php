@@ -110,4 +110,21 @@ function listarTipoHab($conn){
         $vec[]=$f;
     return $vec;
 }
+
+
+
+//*TABLA REGISTRO*
+
+
+//Tabla tipo *LISTO *
+//método para agregar registros
+function listaRegHabitacionesLibres($cod,$nom,$pre,$prep,$des,$can,$fot,$conn){
+    $sql="insert into registo values('$cod','$nom','$pre','$prep','$des','$can','$fot')";   
+    mysqli_query($conn, $sql) or die(mysqli_error($conn));
+}
+
+
 ?>
+
+
+

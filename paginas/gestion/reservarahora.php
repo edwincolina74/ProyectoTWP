@@ -17,32 +17,107 @@
     include "../../Intro/cabecera.php"
 ?>
 
-<br><br><br>
+
+    <?php 
+        require '../../controlador/conexion.php';
+        $conn = conectar();
+        $lista = listarTipoHab($conn);
+    ?>
+
+
+<br>
     <div > 
         
-        <form  class="contenedorHIS" name="formulario">
+        <form  class="contenedorHIS">
             <div>  
-                <h1>Huespedes</h1>
-                <label>Ingrese número de adultos: </label>
-                <input type="text" name="nAdultos" value="1"> <br>
-                <label>Ingrese número de niños  : </label>
-                <input type="text" name="nNinos" placeholder="0"> <br><br><br>
-                <input type="button" name="" onclick="validarDatos()" value="Costo">
-            </div>
-            <div>
-                <h1>Ingreso</h1>
-                <label>Ingrese fecha de Ingreso: </label>
-                <input type="date" name="fIngreso"> <br>
+                    <h1>RESERVAS</h1>
+                    <label>SELECCIONE TIPO DE HABITACION </label>
 
-            </div>
-            <div>
-                <h1>Salida</h1>
-                <label>Ingrese fecha de salida  : </label>
-                <input type="date" name="fSalida">
-            </div>
+                <select name="tHabitacion">
+                    <?php
+                        foreach (listarTipoHab($conn) as $key => $value) {
+                    ?>
+                        <tr> <option value=<?= $value[0]?> ><?= $value[1]?></option> </tr>
+                    <?php 
+                        }
+                    ?>
+                </select>
 
-    </form>
-    
+                <?php
+                    echo $value[0];
+                    echo $thabitacion.value;
+
+                ?>
+                    <br><br><br>
+                    <input type="button" name="" value="Buscar">
+            </div>
+        </form>
+ 
+</div>
+<br><br><br>
+
+
+    <table>
+        <tr>
+           <!-- <th>Código de Habitación</th> -->
+            <!-- <th>Código de Usuario</th> -->
+            <th>Tipo de Habitación</th>
+            <th>Precio de Tipo de Habitación</th>
+            <th>Cantidad de Habitaciones disponibles</th>
+            <th>Descripcion de la Habitacion</th>
+            <th>Foto de Tipo de Habitación</th>
+            <th colspan="2">Acciones</th>
+            
+            
+
+        </tr>
+
+
+        <?php
+            foreach (listarTipoHab($conn) as $key => $value) {
+        ?>
+            <tr>
+                <!-- <td><?= $value[0]?></td>-->
+               <!--              <td><?= $value[3]?></td> -->
+               <!-- <td><?= $value[6]?></td> -->
+
+                <td><?= $value[1]?></td>
+                <td><?= $value[2]?></td>
+                <td><?= $value[5]?></td>
+                <td><?= $value[4]?></td>
+
+                <td><img src="../<?= $value[6]?>" width="100" height="100"></td>
+                 
+                
+                <td>
+                    <a href="../../llamadas/proceso_habitacion.php?accion=eliminar&codigo=<?= $value[0] ?>">ELEGIR</a>
+                </td>
+         <!--       <td>
+                    <a href="editar.php?codigo=<?=$value[0]?>">Modificar</a>
+                </td>
+        -->
+                
+            </tr>
+
+
+        <?php 
+        }
+        ?>
+    </table>
+
+<?php
+    include "../../Intro/piepagina.php"
+?>
+
+          
+</body>
+</html>
+
+
+
+              <!--  <label>Ingrese número de niños  : </label>
+                <input type="text" name="nNinos" placeholder="0">-->
+<!--   
         <br>
         <br>
 
@@ -54,7 +129,7 @@
                         <p class="negrita"> Check-in:</p>
                         <p> Despues de 15:00 </p>
                         <textarea name="fechaI" rows="2" ></textarea>
-                        <!--<div id="fechaI"></div>-->
+                      
                      </div>
                     <div>
                         <p class="negrita"> Check-out: </p>
@@ -70,13 +145,7 @@
                     <p class="negrita colorM"> COSTO</p>   
                     <center><textarea name="costo" rows="5" ></textarea> </center>
     </form>
-</div>
-<br><br><br>
+-->
 
-<<?php
-    include "../../Intro/piepagina.php"
-?>
 
-          
-</body>
-</html>
+
