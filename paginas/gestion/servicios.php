@@ -5,12 +5,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Servicios</title>
-	<link rel="stylesheet" type="text/css" href="css/servicios.css">
+	<link rel="stylesheet" type="text/css" href="../../css/servicios.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/estilos1.css">
+	<link rel="stylesheet" href="../../css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
 <body>
 	<!-- CABECERA -->
 	<?php
-		include "Intro/cabecera.php"
+		include "../../Intro/cabecera.php"
 	?>
 	<!-- FIN CABECERA    -->
 
@@ -37,7 +37,7 @@
 			<div class="tabla">
 				<div class="contenido-nuestras">
 					
-					<img class="item-nuestras" src="imagenes/servicios/COMODIDAD.jpg">						
+					<img class="item-nuestras" src="../../imagenes/servicios/COMODIDAD.jpg">						
 				</div>
 
 
@@ -53,7 +53,7 @@
 			<div class="contenido-columnas">
 
 				<div>
-					<img src="imagenes/servicios/SPA.jpg"> 
+					<img src="../../imagenes/servicios/SPA.jpg"> 
 					<h3> SPA</h3>
 					<p>
 						Disfrute de un momento de relajación en este lugar relajante, donde podras vivir un nuevo concepto de estetica
@@ -61,7 +61,7 @@
 				</div>
 
 				<div>
-					<img src="imagenes/servicios/Pasteleria.jpg"> 
+					<img src="../../imagenes/servicios/Pasteleria.jpg"> 
 					<h3 > PASTELERIA</h3>
 					<p>
 						Pruebe nuestros dulces elaborados por pasteleros de alta costura y demostraciónes de postres.
@@ -69,7 +69,7 @@
 				</div>
 
 				<div>
-					<img src="imagenes/servicios/Gimnasio.jpg"> 
+					<img src="../../imagenes/servicios/Gimnasio.jpg"> 
 					<h3 > GIMNASIO</h3>
 					<p>
 						Relajese y haga ejercicios en nuestro lugar donde contara con personales dedicados y capacitados para tu estancia
@@ -79,7 +79,7 @@
 
 			<div class="contenido-columnas">
 				<div>
-					<img src="imagenes/servicios/barberia.jpg"> 
+					<img src="../../imagenes/servicios/barberia.jpg"> 
 					<h3> BARBERIA</h3>
 					<p>
 						Nos especializamos en cortes, arreglos de barba y afeitados para hombre. Amplia comodidas, te brindamos tratamientos para mejorar tu estilo.					
@@ -87,7 +87,7 @@
 				</div>
 
 				<div>
-					<img src="imagenes/servicios/piscina.jpg"> 
+					<img src="../../imagenes/servicios/piscina.jpg"> 
 					<h3 > PISCINA</h3>
 					<p>
 						Durante el verano o invierno, puede pasar el tiempo que desee en nuestra piscina temperada, que cuenta con personal especialmente para tus necesidades.
@@ -95,7 +95,7 @@
 				</div>
 
 				<div>
-					<img src="imagenes/servicios/casino.jpg"> 
+					<img src="../../imagenes/servicios/casino.jpg"> 
 					<h3 > CASINO SLOTS</h3>
 					<p>
 						Disfrute de la emoción de las apuestas altas en nuestras tragamonedas de casino, que cuenta con mesas de cartas y máquinas tragamonedas.
@@ -107,7 +107,7 @@
 		<!-- PIE DE PAGINA -->
 
 		<?php
-	         include "Intro/piepagina.php"
+	         include "../../Intro/piepagina.php"
         ?>
 
 		<!-- FIN: PIE DE PAGINA -->
